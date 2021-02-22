@@ -199,12 +199,56 @@ def create_resume_full( resume )
           # VOLUNTEER
           data['experience']['volunteer'].each do |vol|
             div class: 'exp-item volunteer' do
+              # ORGANIZATION
+              p class: 'vol-organization' do
+                vol['organization']
+              end
+              # LOCATION
+              p class: 'vol-location' do
+                "(#{vol['location']})"
+              end
+              # DATE
+              p class: 'vol-date_range' do
+                if !vol['date']['start'].nil? && vol['date']['end'].nil?
+                  vol['date']['start']
+                elsif !vol['date']['start'].nil? && !vol['date']['end'].nil?
+                  "#{vol['date']['start']} - #{vol['date']['end']}"
+                end
+              end
+              # CAUSE
+              p class: 'vol-cause' do
+                vol['cause']
+              end
+              # ABOUT
+              p class: 'vol-about' do
+                vol['about']
+              end
+              # DUTIES
+              ul class: 'vol-duties bullet-list' do
+                vol['duties'].each do |duty|
+                  li class: 'vol-duty' do
+                    duty
+                  end
+                end
+              end
             end
           end
 
           # ORGANIZATIONS
           data['experience']['organizations'].each do |org|
             div class: 'exp-item organization' do
+              # ORGANIZATION
+              p class: 'org-organization' do
+                org['organization']
+              end
+              # POSITION
+              p class: 'org-position' do
+                org['position']
+              end
+              # DATE_RANGE
+              p class: 'org-date_range' do
+                "#{org['date']['start']} - #{org['date']['end']}"
+              end
             end
           end
 

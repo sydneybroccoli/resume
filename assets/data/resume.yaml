@@ -387,7 +387,7 @@ education:
 skills_interests:
   skills:
     technical:
-      FRONT_END:
+      front_end:
       - "HTML"
       - "(S)CSS"
       - "SASS"
@@ -395,7 +395,7 @@ skills_interests:
       - "React JS"
       - "Bootstrap"
       - "Material Design"
-      BACK_END:
+      back_end:
       - "Javascript"
       - "Expo"
       - "Node JS"
@@ -407,7 +407,7 @@ skills_interests:
       - "Expo"
       - "C++"
       - "MATLAB"
-      TOOLS:
+      tools:
       - "Firebase"
       - "Version Control"
       - "git"
@@ -423,7 +423,7 @@ skills_interests:
       - "Whimsical"
       - "MS Visio"
       - "Sublime Text"
-      OTHER:
+      other:
       - "Windows"
       - "Linux"
       - "Android"

@@ -272,7 +272,8 @@ experience:
     - "Processed data from 25+ trials; each trial containing 100's of images."
 
   volunteer:
-  - organization: "Mountains To Sound Greenway"
+  - title: "Volunteer"
+    organization: "Mountains To Sound Greenway"
     location: "North Bend, WA"
     date:
       start: null
@@ -282,7 +283,8 @@ experience:
     duties:
     - "Transported plants from pots to the nursery."
     - "Cleaned wooded areas and planted fresh shrubbery."
-  - organization: "Seattle's Union Gospel Mission"
+  - title: "Volunteer"
+    organization: "Seattle's Union Gospel Mission"
     location: "Seattle, WA"
     date:
       start: "2012"
@@ -291,7 +293,8 @@ experience:
     about: "The Seattle Union Gospel Mission is a non-profit group whose goal is to serve, rescue and transform the lives of the hurting and homeless population in Seattle by providing emergency care and long-term recovery services."
     duties:
     - "Distributed food and other goods (blankets; clothes) to homeless populations around the city of Seattle."
-  - organization: "Outdoors For All Foundation"
+  - title: "Volunteer"
+    organization: "Outdoors For All Foundation"
     location: "North Bend, WA"
     date:
       start: "2012"
@@ -300,7 +303,8 @@ experience:
     about: "Outdoors For All is a group that aims to improve the quality of life for children and adults with disabilities by providing adaptive and therapeutic outdoor recreation."
     duties:
     - "Accomodated rock climbers by providing safe belay or on-wall assistance."
-  - organization: "Special Olympics Washington"
+  - title: "Volunteer"
+    organization: "Special Olympics Washington"
     location: "Tacoma, WA"
     date:
       start: "2011"
@@ -310,7 +314,8 @@ experience:
     duties:
     - "Maintained records for events (Shot Put; Long Jump)."
     - "Marshalled athletes from check-in to award delivery."
-  - organization: "Hunger Cleanup"
+  - title: "Volunteer"
+    organization: "Hunger Cleanup"
     location: "Milwaukee, WI"
     date:
       start: "2012"
@@ -320,18 +325,18 @@ experience:
     duties:
     - "Strengthened community relations through a variety of service projects: picking up trash in local neighborhoods, planting a community garden, and yard work for elderly neighbors."
   organizations:
-  - organization: "Marquette Women's Club Lacrosse"
-    position: "Member"
+  - title: "Member"
+    organization: "Marquette Women's Club Lacrosse"
     date:
       start: "2013"
       end: "2017"
-  - organization: "Marquette Women's Club Lacrosse"
-    position: "Treasurer"
+  - title: "Treasuer"
+    organization: "Marquette Women's Club Lacrosse"
     date:
       start: "2015"
       end: "2016"
-  - organization: "Alpha Chi Women's Fraternity"
-    position: "Member"
+  - title: "Member"
+    organization: "Alpha Chi Women's Fraternity"
     date:
       start: "2014"
       end: "2017"

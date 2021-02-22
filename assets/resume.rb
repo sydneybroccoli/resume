@@ -200,7 +200,11 @@ def create_resume_full( resume )
 
           # VOLUNTEER
           data['experience']['volunteer'].each do |vol|
-            div class: 'exp-item volunteer' do
+            div class: 'exp-item volunteer item' do
+              # TITLE
+              p class: 'vol-title' do
+                vol['title']
+              end
               # ORGANIZATION
               p class: 'vol-organization' do
                 vol['organization']
@@ -217,10 +221,10 @@ def create_resume_full( resume )
                   "#{vol['date']['start']} - #{vol['date']['end']}"
                 end
               end
-              # CAUSE
-              p class: 'vol-cause' do
-                vol['cause']
-              end
+              # # CAUSE
+              # p class: 'vol-cause' do
+              #   vol['cause']
+              # end
               # ABOUT
               p class: 'vol-about' do
                 vol['about']

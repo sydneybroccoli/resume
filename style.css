@@ -92,33 +92,64 @@ ul.bubble-list {
   margin: 0;
   padding: 0; }
 
-.exp-item {
+.experience {
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto auto auto auto;
   grid-template-areas: "title title date" "company location location" "about about about" "skills skills skills" "duties duties duties"; }
-  .exp-item .exp-title {
+  .experience .exp-title {
     font-weight: bold;
     text-transform: uppercase;
     margin: 0;
     grid-area: title; }
-  .exp-item .exp-date_range {
+  .experience .exp-date_range {
     font-style: italic;
     margin: 0;
     grid-area: date; }
-  .exp-item .exp-company {
+  .experience .exp-company {
     text-transform: uppercase;
     margin: 0;
     margin-right: 3px;
     grid-area: company; }
-  .exp-item .exp-location {
+  .experience .exp-location {
     font-variant: small-caps;
     font-style: italic;
     margin: 0;
     grid-area: location; }
-  .exp-item .exp-skills {
+  .experience .exp-skills {
     grid-area: skills; }
-  .exp-item .exp-duties {
+  .experience .exp-duties {
+    grid-area: duties; }
+
+.volunteer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "title title year" "organization location location" "about about about" "duties duties duties"; }
+  .volunteer .vol-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    grid-area: title; }
+  .volunteer .vol-date_range {
+    font-style: italic;
+    margin: 0;
+    grid-area: year; }
+  .volunteer .vol-organization {
+    text-transform: uppercase;
+    margin: 0;
+    margin-right: 3px;
+    grid-area: organization; }
+  .volunteer .vol-location {
+    font-variant: small-caps;
+    font-style: italic;
+    margin: 0;
+    grid-area: location; }
+  .volunteer .vol-about {
+    font-style: italic;
+    margin: 0;
+    grid-area: about; }
+  .volunteer .vol-duties {
     grid-area: duties; }
 
 #resume-header {

@@ -1,5 +1,5 @@
 // PROFESSIONALS
-.exp-item {
+.experience {
   // STYLE
   // FORMAT
   display: grid;
@@ -55,5 +55,60 @@
 }
 
 // VOLUNTEERS
+.volunteer {
+  // SKILL
+  // FORMAT
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "title title year"
+    "organization location location"
+    "about about about"
+    "duties duties duties";
+
+    .vol-title {
+      // STYLE
+      text-transform: uppercase;
+      font-weight: bold;
+      // FORMAT
+      margin: 0; 
+      grid-area: title; 
+    }
+    .vol-date_range {
+      // STYLE
+      font-style: italic;
+      // FORMAT
+      margin: 0; 
+      grid-area: year; 
+    }
+    .vol-organization {
+      // STYLE
+      text-transform: uppercase;
+      // FORMAT 
+      margin: 0; margin-right: $spacer;
+      grid-area: organization; 
+    }
+    .vol-location {
+      // STYLE
+      font-variant: small-caps;
+      font-style: italic;
+      // FORMAT 
+      margin: 0;
+      grid-area: location; 
+    }
+    .vol-about {
+      // STYLE
+      font-style: italic;
+      // FORMAT 
+      margin: 0;
+      grid-area: about; 
+    }
+    .vol-duties {
+      // STYLE
+      // FORMAT 
+      grid-area: duties; 
+    }
+}
 
 // ORGANIZATIONS

@@ -30,128 +30,112 @@ contact:
   url: "https://github.com/sydneybroccoli"
 
 projects:
-- technical:  
+  technical:  
   - title: "Scrapit App"
-    deets:
-    - about: "Making zero waste, zero-hassle.  Scrapit partners with local municipalities to gamify curbside composting and lets users ear rewards they actually want.\nCurrently in pilot testing at MIT."
-    - skills:
-      - "Firebase"
-      - "Expo"
-      - "React"
-      - "Redux"
-      - "Android"
-      - "iOS"
-    - duties:
-      - "Collaborated on the project across multiple teams; development team (2+ person) developed a mobile application, based on a web application prototype."
-      - "Refactored all permission requests into a single re-usable method."
-      - "Developed functionality to allow users to share or download QR code images."
-      - "Continued development while pilot testing."
+    about: "Making zero waste, zero-hassle.  Scrapit partners with local municipalities to gamify curbside composting and lets users ear rewards they actually want.\nCurrently in pilot testing at MIT."
+    skills:
+    - "Firebase"
+    - "Expo"
+    - "React"
+    - "Redux"
+    - "Android"
+    - "iOS"
+    duties:
+    - "Collaborated on the project across multiple teams; development team (2+ person) developed a mobile application, based on a web application prototype."
+    - "Refactored all permission requests into a single re-usable method."
+    - "Developed functionality to allow users to share or download QR code images."
+    - "Continued development while pilot testing."
     links: null
-
   - title: "Right Dose"
-    deets:
-    - about: "Saving patients; helping paramedics. Provides a flexible, robust and customisable framework for any pre-hospital service by which active intervention and dosage information is readily updated and deployed to employees for easy reference while on-the-job."
-    - skills:
-      - "Ruby on Rails"
-      - "Bootstrap"
-      - "Algolia"
-      - "Date-FNS"
-      - "Sortable"
-      - "Sweet Alert"
-      - "Cloudinary"
-      - "Faker"
-      - "Pundit"
-      - "Devise"
-      - "SWAL Forms"
-      - "SASS"
-      - "ERB"
-      - "Webpacker"
-      - "Capybara"
-      - "Trello"
-      - "Figma"
-    - duties:
-      - "Collaborate (4-person team) using Trello and git/GitHub to develop the front- and back-ends of the project."
-      - "Responsible for working on the back-end of the paramedic-side of the application."
+    about: "Saving patients; helping paramedics. Provides a flexible, robust and customisable framework for any pre-hospital service by which active intervention and dosage information is readily updated and deployed to employees for easy reference while on-the-job."
+    skills:
+    - "Ruby on Rails"
+    - "Bootstrap"
+    - "Algolia"
+    - "Date-FNS"
+    - "Sortable"
+    - "Sweet Alert"
+    - "Cloudinary"
+    - "Faker"
+    - "Pundit"
+    - "Devise"
+    - "SWAL Forms"
+    - "SASS"
+    - "ERB"
+    - "Webpacker"
+    - "Capybara"
+    - "Trello"
+    - "Figma"
+    duties:
+    - "Collaborate (4-person team) using Trello and git/GitHub to develop the front- and back-ends of the project."
+    - "Responsible for working on the back-end of the paramedic-side of the application."
     links:
     - anchor: "GitHub"
       url: "https://github.com/josephdriver/right-dose"
     - anchor: "Demo"
       url: "https://right-dose.herokuapp.com/"
-
   - title: "The Mile High Club"
-    deets:
-    - about: "Mock, AirBNB-style marketplace for aircraft rentals."
-      skills:
-      - "Ruby on Rails"
-      - "Bootstrap"
-      - "Flatpickr"
-      - "jQuery"
-      - "Mapbox"
-      - "Cloudinary"
-      - "Faker"
-      - "Pundit"
-      - "Devise"
-      - "Geocoder"
-      - "SASS"
-      - "ERB"
-      - "Simple Form"
-      - "Webpacker"
-      - "PG_Search"
-      - "Trello"
-      - "Figma"
-      duties:
-      - "Collaborated (4-person team) using Trello and git/GitHub to develop the front- and back-ends of the project."
+    about: "Mock, AirBNB-style marketplace for aircraft rentals."
+    skills:
+    - "Ruby on Rails"
+    - "Bootstrap"
+    - "Flatpickr"
+    - "jQuery"
+    - "Mapbox"
+    - "Cloudinary"
+    - "Faker"
+    - "Pundit"
+    - "Devise"
+    - "Geocoder"
+    - "SASS"
+    - "ERB"
+    - "Simple Form"
+    - "Webpacker"
+    - "PG_Search"
+    - "Trello"
+    - "Figma"
+    duties:
+    - "Collaborated (4-person team) using Trello and git/GitHub to develop the front- and back-ends of the project."
     links:
     - anchor: "GitHub"
       url: "https://github.com/sydneybroccoli/the-milehigh-club"
     - anchor: "Demo"
       url: "https://the-milehigh-club.herokuapp.com/"
-
   - title: "Mister Cocktail/Soup of the Day"
-    deets:
-    - about: "Mock, online recipe cocktail book."
-      skills:
-      - "Ruby on Rails"
-      - "SASS"
-      - "Bootstrap"
-      - "Webpacker"
-      - "RSpec"
-      - "PG_Search"
-      - "Simple Form"
-      - "Faker"
-      - "ERB"
-      duties:
-      - Designed and developed a basic MVC application with CRUD capabilites.
+    about: "Mock, online recipe cocktail book."
+    skills:
+    - "Ruby on Rails"
+    - "SASS"
+    - "Bootstrap"
+    - "Webpacker"
+    - "RSpec"
+    - "PG_Search"
+    - "Simple Form"
+    - "Faker"
+    - "ERB"
+    duties:
+    - Designed and developed a basic MVC application with CRUD capabilites.
     links:
     - anchor: "GitHub"
       url: "https://github.com/sydneybroccoli/rails-mister-cocktail"
     - anchor: "Demo"
       url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"   
-
   - title: "Low-Cost Patient and Healthcare Record System"
-    deets:
-    - about: "Developing a joint hardware-software solution for deploying Electronic Healthcare Record-keeping systems for public health groups in developing nations around the world."
-      skills:
-      - "Healthcare"
-      - "Raspberry Pi"
-      duties:
-      - "Research existing solutions; evaluated feasibility of commercial programs to be used at low-cost in rural areas."
-      - "Integrated Raspberry Pi hardware as a server for the software while also providing honeypot access to users."
+    about: "Developing a joint hardware-software solution for deploying Electronic Healthcare Record-keeping systems for public health groups in developing nations around the world."
+    skills:
+    - "Healthcare"
+    - "Raspberry Pi"
+    duties:
+    - "Research existing solutions; evaluated feasibility of commercial programs to be used at low-cost in rural areas."
+    - "Integrated Raspberry Pi hardware as a server for the software while also providing honeypot access to users."
     links: null   
-
-- publications:
+  publications:
   - title: "Assessing kinematic variability during performance of Jebsen-Taylor Hand Function Test."
     publisher: "Journal of Hand Therapy"
     date: "March 2019"
-    authors:
-    - "Konston, K.L."
-    - "Wang, S."
-    - "Barovsky, S."
-    - "Bloomer, C."
-    - "Wozniczka, L."
-    - "Civillico, E.F."
+    authors: "Konston, K.L., Wang, S., Barovsky, S., Bloomer, C., Wozniczka, L., Civillico, E.F."
     link: 
-    - anchor: "https://doi.org/10.1016/j.jht.2018.10.002"
+      anchor: "https://doi.org/10.1016/j.jht.2018.10.002"
       url: "https://doi.org/10.1016/j.jht.2018.10.002"
 
 experience:

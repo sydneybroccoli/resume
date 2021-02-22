@@ -1,9 +1,10 @@
+@import './variables.scss';
+
 body {
   width: 100vw;
   overflow-x: hidden;
-  font-size: 15px;
+  font-size: $font-size;
 }
-
 header { display: none; }
 
 .container {
@@ -15,18 +16,21 @@ header { display: none; }
 @media (min-width: 992px)  { .container { width: 970px; } }
 @media (min-width: 1200px) { .container { width: 1170px; } }
 
+
+// SECTION HEADERS
 h1.section-header {
   width: auto;
-  letter-spacing: 0.5em;
-  border-bottom: 0.1em solid #008B8B;
+  font-size: $font-size_header;
+  letter-spacing: $letter-spacing_header;
+  border-bottom: $border-thickness solid $color_main;
 }
 
-ul {
+// LIST OPTIONS
+ul.bullet-list {
   list-style-position: outside;
   list-style-type: '- ';
 }
 
-/* BUBBLE ITEM LIST */
 ul.bubble-list {
   list-style-type: none;
   padding-left: 0;
@@ -37,23 +41,23 @@ ul.bubble-list li {
   padding: 2.5px 5px;
   margin: 1px 1px;
 
-  /*BUTTON STYLING*/
+  // BUTTON STYLING
   color: white;
-  background: #008B8B;
-  border: 1px solid #008B8B;
+  background: $color_main;
+  border: 1px solid $color_main;
   border-radius: 20px;
 }
 
-/*ROW STYLING*/
-span.row {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-}
-span.row-spaced {
-  justify-content: space-between;
-}
-span.row-start {
+// // ROW STYLING
+// span.row {
+//   display: flex;
+//   flex-direction: row;
+//   gap: 0.5rem;
+// }
+// span.row-spaced {
+//   justify-content: space-between;
+// }
+// span.row-start {
 
-  justify-content: flex-start;
-}
+//   justify-content: flex-start;
+// }

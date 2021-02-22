@@ -82,6 +82,68 @@ def create_resume_full( resume )
           h1 class: 'section-header' do
             'PROJECTS'
           end
+          # TECHNICAL PROJECTS
+          data['projects']['technical'].each do |proj|
+            div class: 'proj-item project' do
+              # TITLE
+              p class: 'proj-title' do
+                proj['title']
+              end
+              # ABOUT
+              p class: 'proj-title' do
+                proj['about']
+              end
+              # SKILLS
+              ul class: 'proj-skills bubble-list' do
+                proj['skills'].each do |skill|
+                  li class: 'proj-skill' do
+                    skill
+                  end
+                end
+              end
+              # DUTIES
+              ul class: 'proj-duties bullet-list' do
+                proj['duties'].each do |skill|
+                  li class: 'proj-duty' do
+                    skill
+                  end
+                end
+              end
+              # LINKS
+              if !proj['links'].nil?
+                ul class: 'proj-links' do
+                  proj['links'].each do |link|
+                    li class: 'proj-link' do
+                      a link['anchor'], href: link['url']
+                    end
+                  end
+                end           
+              end
+            end # END OF PROJECT ITEM
+          end # END OF PROJ LOOP
+
+          # PUBLICATIONS
+          data['projects']['publications'].each do |pub|
+            div class: 'proj-item publication' do
+              # CITATION
+              div class: 'pub-citation' do
+                span class: 'pub-authors' do
+                  "#{pub['authors']} " 
+                end
+                span class: 'pub-date' do
+                  "(#{pub['date']}). "
+                end
+                span class: 'pub-title' do
+                  "#{pub['title']}. "
+                end
+                span class: 'pub-publisher' do
+                  "#{pub['publisher']}."
+                end
+              end
+              # LINK
+              a pub['link']['anchor'], href: pub['link']['url']
+            end
+          end
         end
         # EXPERIENCE
         div class: 'resume-content', id: 'experience' do

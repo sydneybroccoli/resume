@@ -1,12 +1,12 @@
 // VARIABLES
-$color-main: #008B8B;
+@import './variables.scss';
 
 // HEADER
 #resume-header {
   // STYLE
   text-align: left;
   background: white;
-  border: 0.1em solid $color-main;
+  border: $border-thickness solid $color_main;
   // FORMAT
   display: grid;
   grid-template-columns: 1fr auto;
@@ -22,8 +22,8 @@ $color-main: #008B8B;
 #header-main {
   #header-name {
     // STYLE
-    font-size: 2rem;
-    letter-spacing: 5px;
+    font-size: $font-size_name;
+    letter-spacing: $letter-spacing_name;
     // FORMAT
     margin-top: 10px; margin-bottom: 0;
   }
@@ -75,7 +75,7 @@ ul#contact-items {
       a:hover {
         padding: 2px;
         color: white;
-        background-color: $color-main;
+        background-color: $color_main;
       }
     }
     .contact-icon {}

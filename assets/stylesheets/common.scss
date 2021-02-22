@@ -16,6 +16,10 @@ header { display: none; }
 @media (min-width: 992px)  { .container { width: 970px; } }
 @media (min-width: 1200px) { .container { width: 1170px; } }
 
+.item {
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 // SECTION HEADERS
 h1.section-header {
@@ -27,8 +31,12 @@ h1.section-header {
 
 // LIST OPTIONS
 ul.bullet-list {
+  // STYLE
   list-style-position: outside;
   list-style-type: '- ';
+  // FORMAT
+  margin: 0;
+  padding-left: 20px;
 }
 
 ul.bubble-list {
@@ -36,17 +44,19 @@ ul.bubble-list {
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
-}
-ul.bubble-list li {
-  padding: 2.5px 5px;
-  margin: 1px 1px;
 
-  // BUTTON STYLING
-  color: white;
-  background: $color_main;
-  border: 1px solid $color_main;
-  border-radius: 20px;
+  li {
+    padding: 2.5px 5px;
+    margin: 1px 1px;
+
+    // BUTTON STYLING
+    color: white;
+    background: $color_main;
+    border: 1px solid $color_main;
+    border-radius: 20px;
+  }
 }
+
 
 // // ROW STYLING
 // span.row {

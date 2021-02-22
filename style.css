@@ -20,6 +20,10 @@ header {
 @media (min-width: 1200px) {
   .container {
     width: 1170px; } }
+.item {
+  padding: 0 15px;
+  margin: 0 auto; }
+
 h1.section-header {
   width: auto;
   font-size: 20px;
@@ -28,21 +32,64 @@ h1.section-header {
 
 ul.bullet-list {
   list-style-position: outside;
-  list-style-type: '- '; }
+  list-style-type: '- ';
+  margin: 0;
+  padding-left: 20px; }
 
 ul.bubble-list {
   list-style-type: none;
   padding-left: 0;
   display: flex;
   flex-wrap: wrap; }
+  ul.bubble-list li {
+    padding: 2.5px 5px;
+    margin: 1px 1px;
+    color: white;
+    background: #008B8B;
+    border: 1px solid #008B8B;
+    border-radius: 20px; }
 
-ul.bubble-list li {
-  padding: 2.5px 5px;
-  margin: 1px 1px;
-  color: white;
-  background: #008B8B;
-  border: 1px solid #008B8B;
-  border-radius: 20px; }
+#education {
+  width: 100%; }
+
+.edu-item {
+  margin: 5px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "degree degree year" "school location ." "content content content"; }
+
+.edu-degree {
+  font-weight: bold;
+  grid-area: degree;
+  margin: 0;
+  padding: 0; }
+
+.edu-grad_date {
+  font-style: italic;
+  grid-area: year;
+  margin: 0;
+  padding: 0; }
+
+.edu-school {
+  text-transform: uppercase;
+  grid-area: school;
+  margin: 0;
+  padding: 0;
+  margin-right: 3px; }
+
+.edu-location {
+  font-style: italic;
+  font-variant: small-caps;
+  grid-area: location;
+  margin: 0;
+  padding: 0; }
+
+.edu-content {
+  grid-area: content;
+  margin: 0;
+  padding: 0; }
 
 #resume-header {
   text-align: left;
@@ -92,7 +139,7 @@ ul#contact-items {
   ul#contact-items .contact-item {
     align-self: flex-end; }
     ul#contact-items .contact-item .contact-text {
-      margin-right: 0.5em; }
+      margin-right: 3px; }
       ul#contact-items .contact-item .contact-text a {
         color: black;
         text-decoration: none; }

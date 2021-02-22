@@ -59,13 +59,15 @@ ul.bubble-list li {
 
 #header-main #header-name {
   font-size: 35px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  color: #008B8B;
   margin-top: 10px;
   margin-bottom: 0; }
 #header-main ul#header-headlines {
   list-style-type: none;
   padding-left: 0;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 #header-main #header-about {
   font-style: italic;
   margin: 0;
@@ -98,6 +100,8 @@ ul#contact-items {
         padding: 2px;
         color: white;
         background-color: #008B8B; }
+    ul#contact-items .contact-item .contact-icon {
+      color: #008B8B; }
 
 /*MEDIA QUERIES FOR PRINT STYLING*/
 /*fixes for things that don't print the same way they are displayed on the screen*/

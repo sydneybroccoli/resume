@@ -24,6 +24,7 @@
     // STYLE
     font-size: $font-size_name;
     letter-spacing: $letter-spacing_name;
+    color: $color_main;
     // FORMAT
     margin-top: 10px; margin-bottom: 0;
   }
@@ -35,7 +36,7 @@
     // STYLE
     // FORMAT
     list-style-type: none; padding-left: 0;
-    margin: 0;
+    margin: 0; padding: 0;
   }
 
   #header-about {
@@ -78,6 +79,8 @@ ul#contact-items {
         background-color: $color_main;
       }
     }
-    .contact-icon {}
+    .contact-icon {
+      color: $color_main;
+    }
   }
 }

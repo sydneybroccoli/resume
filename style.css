@@ -1,6 +1,110 @@
-@import './assets/stylesheets/common.css';
-@import './assets/stylesheets/experience.css';
-@import './assets/stylesheets/projects.css';
-@import './assets/stylesheets/education.css';
-@import './assets/stylesheets/skills.css';
-@import './assets/stylesheets/print.css';
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 15px; }
+
+header {
+  display: none; }
+
+.container {
+  height: auto;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+h1.section-header {
+  width: auto;
+  letter-spacing: 0.5em;
+  border-bottom: 0.1em solid #008B8B; }
+
+ul {
+  list-style-position: outside;
+  list-style-type: '- '; }
+
+/* BUBBLE ITEM LIST */
+ul.bubble-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap; }
+
+ul.bubble-list li {
+  padding: 2.5px 5px;
+  margin: 1px 1px;
+  /*BUTTON STYLING*/
+  color: white;
+  background: #008B8B;
+  border: 1px solid #008B8B;
+  border-radius: 20px; }
+
+/*ROW STYLING*/
+span.row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem; }
+
+span.row-spaced {
+  justify-content: space-between; }
+
+span.row-start {
+  justify-content: flex-start; }
+
+#resume-header {
+  text-align: left;
+  background: white;
+  border: 0.1em solid #008B8B;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "left right"; }
+  #resume-header #header-left {
+    grid-area: left; }
+  #resume-header #header-right {
+    grid-area: right; }
+
+#header-name {
+  font-size: 2em;
+  letter-spacing: 1.0em;
+  margin-top: 20px;
+  margin-bottom: 0; }
+
+#header-contact .contact-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end; }
+
+#header-contact .contact-item .contact-text {
+  margin-right: 0.5em; }
+
+/*MEDIA QUERIES FOR PRINT STYLING*/
+/*fixes for things that don't print the same way they are displayed on the screen*/
+/*
+     = 1.6px = 0.1em
+     = 2  px = 0.15em
+     = 4  px = 0.25em
+ 6pt =  8 px = 0.5 em
+11pt = 15 px = 0.95em
+12pt = 16 px = 1.0 em
+14pt = 19 px = 1.2 em
+24pt = 32 px = 2.0 em
+*/
+@media print {
+  #page-break {
+    page-break-after: always; }
+
+  .print-nobreak {
+    page-break-inside: avoid; }
+
+  @page {
+    margin: 0.25in;
+    size: A4; } }
+
+/*# sourceMappingURL=style.css.map */

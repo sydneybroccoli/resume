@@ -1,0 +1,54 @@
+// VARIABLES
+$main-color: #008B8B;
+
+// HEADER
+#resume-header {
+  // STYLE
+  text-align: left;
+  background: white;
+  border: 0.1em solid $main-color;
+  // FORMAT
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: 
+    "left right";
+
+  #header-left { grid-area: left; }
+  #header-right { grid-area: right; }
+}
+
+// HEADER
+#header-name {
+  // STYLE
+  font-size: 2em;
+  letter-spacing: 1.0em;
+  // FORMAT
+  margin-top: 20px; margin-bottom: 0;
+}
+#header-headline {
+  // STYLE
+  // FORMAT
+}
+#header-about {
+  // STYLE
+  // FORMAT
+}
+
+// HEADER CONTACT INFO
+#header-contact .contact-item {
+  // STYLE
+  // FORMAT
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+#header-contact .contact-item .contact-text {
+  // STYLE
+  // FORMAT
+  margin-right: 0.5em;
+}
+#header-contact .contact-item .contact-icon {
+  // STYLE
+  // FORMAT
+}

@@ -146,7 +146,7 @@ experience:
     location: "Cle Elum, WA"
     date:
       start: "08/2020"
-      end: "Present"
+      end: "CURRENT"
     skills:
     - "Customer Service"
     - "Square POS"
@@ -160,7 +160,7 @@ experience:
     location: "Cle Elum, WA"
     date:
       start: "11/2020"
-      end: "Present"
+      end: "CURRENT"
     skills:
     - "Brewing Equipment"
     - "Food Safety"
@@ -184,7 +184,7 @@ experience:
   - title: "Travel/Backpacking"
     employment_type: FULL_TIME
     company: null
-    location: Various
+    location: Worldwide
     date:
       start: "02/2018"
       end: "05/2018"

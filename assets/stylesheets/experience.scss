@@ -1,4 +1,58 @@
 // PROFESSIONALS
+.exp-item {
+  // STYLE
+  // FORMAT
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+    "title title date"
+    "company location location"
+    "about about about"
+    "skills skills skills"
+    "duties duties duties";
+
+    .exp-title { 
+      // STYLE
+      font-weight: bold;
+      text-transform: uppercase;
+      // FORMAT
+      margin: 0;
+      grid-area: title;
+    }
+    .exp-date_range {
+      // SKILL
+      font-style: italic;
+      // FORMAT 
+      margin: 0;
+      grid-area: date; 
+    }
+    .exp-company {
+      // SKILL
+      text-transform: uppercase;
+      // FORMAT 
+      margin: 0; margin-right: $spacer;
+      grid-area: company; 
+    }
+    .exp-location {
+      // SKILL
+      font-variant: small-caps;
+      font-style: italic;
+      // FORMAT 
+      margin: 0;
+      grid-area: location; 
+    }
+    .exp-skills {
+      // SKILL
+      // FORMAT 
+      grid-area: skills; 
+    }
+    .exp-duties {
+      // SKILL
+      // FORMAT 
+      grid-area: duties; 
+    }
+}
 
 // VOLUNTEERS
 

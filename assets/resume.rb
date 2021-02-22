@@ -127,7 +127,7 @@ def create_resume_full( resume )
 
           # PUBLICATIONS
           data['projects']['publications'].each do |pub|
-            div class: 'proj-item publication' do
+            div class: 'proj-item publication item' do
               # CITATION
               div class: 'pub-citation' do
                 span class: 'pub-authors' do
@@ -157,7 +157,7 @@ def create_resume_full( resume )
 
           # PROFESSIONAL
           data['experience']['professional'].each do |exp|
-            div class: 'exp-item experience' do
+            div class: 'exp-item experience item' do
               # TITLE
               p class: 'exp-title' do
                 exp['title']
@@ -195,7 +195,6 @@ def create_resume_full( resume )
                   end
                 end
               end
-            
             end
           end
 

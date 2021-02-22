@@ -258,6 +258,46 @@ def create_resume_full( resume )
           h1 class: 'section-header' do
             'EDUCATION'
           end
+
+          data['education'].each do |edu|
+            # DEGREE (TYPE / TOPIC)
+            p class: 'edu-degree' do
+              "#{edu['degree']['type'].upcase}: #{edu['degree']['topic']}"
+            end
+            # SCHOOL
+            p class: 'edu-school' do
+              edu['school']
+            end
+            # DATE
+            p class: 'edu-grad_date' do
+              edu['date']['grad_year']
+            end
+            # LOCATION
+            p class: 'edu-location' do
+              "(#{edu['location']})"
+            end
+            # ORGS
+            ul class: 'edu-orgs bullet-list' do
+              if !edu['orgs'].nil?
+                edu['orgs'].each do |org|
+                  li class: 'edu-org' do
+                    org
+                  end
+                end
+              end
+            end
+            # DUTIES
+            ul class: 'edu-duties bullet-list' do
+              if !edu['duties'].nil?
+                edu['duties'].each do |duty|
+                  li class: 'edu-duty' do
+                    duty
+                  end
+                end
+              end
+            end
+          end
+
         end
         # SKILLS/INTERESTS
         div class: 'resume-content', id: 'skills_interests' do

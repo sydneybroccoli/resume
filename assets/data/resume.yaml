@@ -344,6 +344,7 @@ education:
     type: "Certificate"
     topic: "Full Stack Web Development"
   date:
+    grad_year: "2020"
     start: "01/2020"
     end: "04/2020"
   orgs: null
@@ -354,9 +355,10 @@ education:
   school: "Marquette University"
   location: "Milwaukee, WI, USA"
   degree:
-    type: "B.S."
+    type: "Bachelor of Science"
     topic: "Biomedical Engineering"
   date:
+    grad_year: "2017"
     start: "08/2013"
     end: "05/2017"
   orgs:
@@ -372,6 +374,7 @@ education:
     type: "High School Diploma"
     topic: null
   date:
+    grad_year: "2013"
     start: "09/2010"
     end: "06/2013"
   orgs:

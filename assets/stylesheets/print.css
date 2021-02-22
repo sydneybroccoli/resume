@@ -1,0 +1,22 @@
+/*MEDIA QUERIES FOR PRINT STYLING*/
+/*fixes for things that don't print the same way they are displayed on the screen*/
+/*
+     = 1.6px = 0.1em
+     = 2  px = 0.15em
+     = 4  px = 0.25em
+ 6pt =  8 px = 0.5 em
+11pt = 15 px = 0.95em
+12pt = 16 px = 1.0 em
+14pt = 19 px = 1.2 em
+24pt = 32 px = 2.0 em
+*/
+
+@media print {
+  #page-break { page-break-after: always; }
+  .print-nobreak { page-break-inside: avoid; }
+
+  @page {
+    margin: 0.25in;
+    size: A4;
+  }
+}

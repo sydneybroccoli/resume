@@ -22,39 +22,50 @@ def create_resume_full( resume )
     body do
       # RESUME HEADER
       div class: 'container', id: 'resume-header' do
-        div class: 'col-left', id: 'header-left' do
-          # HEADER NAME
+        # HEADER MAIN
+        div class: 'header-content col-left', id: 'header-main' do
+          # NAME
           h1 id: 'header-name' do
             data['name'].upcase
           end
-          # HEADER HEADLINE
-          ul class: '', id: 'header-headline' do
-            data['headline'].each do |headline|
-              li class: 'headline' do
-                headline
+
+          # HEADLINE
+          case data['headline']
+            when String
+              p class: 'headline-item', id: 'header-headline' do
+                data['headline']
               end
-            end
+            when Array
+              ul class: '', id: 'header-headlines' do
+                data['headline'].each do |headline|
+                  li class: 'headline-item' do
+                    headline
+                  end
+                end
+              end
           end
-          # HEADER ABOUT
+
+          # ABOUT
           p class: '', id: 'header-about' do
             data['about']
           end
-        end # END OF COL
-        div class: 'col-right', id: 'header-right' do
-          # HEADER CONTACT
-          ul class: '', id: 'header-contact' do
+        end
+
+        # HEADER CONTACT
+        div class: 'header-content col-right', id: 'header-contact' do
+          # CONTACT LIST
+          ul class: '', id: 'contact-items' do
             data['contact'].each do |item|
               li class: 'contact-item', id: "contact-#{item['type']}" do
-                # IF THE CONTACT HAS NO LINK
-                if item['url'].nil?  
-                  span class: 'contact-text' do
+                # CONTACT TEXT
+                span class: 'contact-text' do
+                  if item['url'].nil?
                     item['text']
-                  end
-                else
-                  span class: 'contact-text' do
+                  else
                     a item['text'], href: item['url']
                   end
                 end
+                # CONTACT ICON
                 span class: 'contact-icon' do
                   item['icon']
                 end
@@ -95,6 +106,9 @@ def create_resume_full( resume )
     end  # END OF BODY
   end  # END OF HTML
 end
+
+# UPDATE STYLESHEET
+%x(sass ../assets/stylesheets/index.scss ../style.css)
 
 # SAVE HTML OUTPUTS
 resume = File.new('./outputs/resume.html', 'w+')

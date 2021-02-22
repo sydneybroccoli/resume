@@ -1,54 +1,83 @@
 // VARIABLES
-$main-color: #008B8B;
+$color-main: #008B8B;
 
 // HEADER
 #resume-header {
   // STYLE
   text-align: left;
   background: white;
-  border: 0.1em solid $main-color;
+  border: 0.1em solid $color-main;
   // FORMAT
   display: grid;
   grid-template-columns: 1fr auto;
+  grid-column-gap: 10px;
   grid-template-areas: 
     "left right";
 
-  #header-left { grid-area: left; }
-  #header-right { grid-area: right; }
+  .col-left { grid-area: left; }
+  .col-right { grid-area: right; }
 }
 
-// HEADER
-#header-name {
-  // STYLE
-  font-size: 2em;
-  letter-spacing: 1.0em;
-  // FORMAT
-  margin-top: 20px; margin-bottom: 0;
-}
-#header-headline {
-  // STYLE
-  // FORMAT
-}
-#header-about {
-  // STYLE
-  // FORMAT
+// HEADER MAIN
+#header-main {
+  #header-name {
+    // STYLE
+    font-size: 2rem;
+    letter-spacing: 5px;
+    // FORMAT
+    margin-top: 10px; margin-bottom: 0;
+  }
+
+  // SINGLE HEADLINE
+  p#header-headline {}
+  // MULTIPLE HEADLINES
+  ul#header-headlines {
+    // STYLE
+    // FORMAT
+    list-style-type: none; padding-left: 0;
+    margin: 0;
+  }
+
+  #header-about {
+    // STYLE
+    font-style: italic;
+    // FORMAT
+    margin: 0; padding: 0;
+    margin-top: 5px; margin-bottom: 10px;
+  }
 }
 
-// HEADER CONTACT INFO
-#header-contact .contact-item {
+// HEADER CONTACT
+#header-contact { margin: 0; padding: 10px 0; } 
+ul#contact-items {
   // STYLE
+  list-style-type: none; padding-left: 0;
   // FORMAT
+  height: 100%;
+  margin: 0; padding: 0;
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: flex-end;
-}
-#header-contact .contact-item .contact-text {
-  // STYLE
-  // FORMAT
-  margin-right: 0.5em;
-}
-#header-contact .contact-item .contact-icon {
-  // STYLE
-  // FORMAT
+  flex-direction: column;
+  justify-content: space-around;
+
+  .contact-item {
+    align-self: flex-end;
+
+    .contact-text {
+      // STYLE
+      // FORMAT
+      margin-right: 0.5em;
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      a:hover {
+        padding: 2px;
+        color: white;
+        background-color: $color-main;
+      }
+    }
+    .contact-icon {}
+  }
 }

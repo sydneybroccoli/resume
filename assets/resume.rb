@@ -84,13 +84,13 @@ def create_resume_full( resume )
           end
           # TECHNICAL PROJECTS
           data['projects']['technical'].each do |proj|
-            div class: 'proj-item project' do
+            div class: 'proj-item project item' do
               # TITLE
               p class: 'proj-title' do
                 proj['title']
               end
               # ABOUT
-              p class: 'proj-title' do
+              p class: 'proj-about' do
                 proj['about']
               end
               # SKILLS
@@ -114,7 +114,10 @@ def create_resume_full( resume )
                 ul class: 'proj-links' do
                   proj['links'].each do |link|
                     li class: 'proj-link' do
-                      a link['anchor'], href: link['url']
+                      span { "#{link['anchor'].upcase}: " }
+                      span do
+                        a link['url'], href: link['url']
+                      end
                     end
                   end
                 end           

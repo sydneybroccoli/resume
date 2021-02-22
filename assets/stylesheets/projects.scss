@@ -1,0 +1,41 @@
+@import './variables.scss';
+
+// PROJECTS
+.proj-item {
+  // STYLE
+  // FORMAT
+  margin: 10px 0;
+}
+.proj-title {
+  // STYLE
+  font-weight: bold;
+  text-transform: uppercase;
+  // FORMAT
+  margin: 0;
+}
+.proj-about {
+  // STYLE
+  font-style: italic;
+  // FORMAT
+  margin: 0;
+}
+.proj-skills {}
+.proj-duties {}
+.proj-links {
+  // STYLE
+  list-style-type: none; padding-left: 0;
+  // FORMAT
+  margin: 0;
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+  a:hover {
+    padding: 2px;
+    color: white;
+    background-color: $color_main;
+  }
+}
+
+// PUBLICATIONS

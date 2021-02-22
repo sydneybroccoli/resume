@@ -33,7 +33,7 @@ h1.section-header {
 ul.bullet-list {
   list-style-position: outside;
   list-style-type: '- ';
-  margin: 0;
+  margin: 5px 0;
   padding-left: 20px; }
 
 ul.bubble-list {
@@ -173,6 +173,30 @@ ul#contact-items {
   @page {
     margin: 0.25in;
     size: A4; } }
+.proj-item {
+  margin: 10px 0; }
+
+.proj-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0; }
+
+.proj-about {
+  font-style: italic;
+  margin: 0; }
+
+.proj-links {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0; }
+  .proj-links a {
+    color: black;
+    text-decoration: underline; }
+  .proj-links a:hover {
+    padding: 2px;
+    color: white;
+    background-color: #008B8B; }
+
 .si-row {
   height: auto;
   display: flex;

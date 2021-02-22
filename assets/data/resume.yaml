@@ -70,10 +70,10 @@ projects:
     - "Collaborate (4-person team) using Trello and git/GitHub to develop the front- and back-ends of the project."
     - "Responsible for working on the back-end of the paramedic-side of the application."
     links:
-    - anchor: "GitHub"
-      url: "https://github.com/josephdriver/right-dose"
     - anchor: "Demo"
       url: "https://right-dose.herokuapp.com/"
+    - anchor: "GitHub"
+      url: "https://github.com/josephdriver/right-dose"
   - title: "The Mile High Club"
     about: "Mock, AirBNB-style marketplace for aircraft rentals."
     skills:
@@ -97,10 +97,10 @@ projects:
     duties:
     - "Collaborated (4-person team) using Trello and git/GitHub to develop the front- and back-ends of the project."
     links:
-    - anchor: "GitHub"
-      url: "https://github.com/sydneybroccoli/the-milehigh-club"
     - anchor: "Demo"
       url: "https://the-milehigh-club.herokuapp.com/"
+    - anchor: "GitHub"
+      url: "https://github.com/sydneybroccoli/the-milehigh-club"
   - title: "Mister Cocktail/Soup of the Day"
     about: "Mock, online recipe cocktail book."
     skills:
@@ -116,10 +116,10 @@ projects:
     duties:
     - Designed and developed a basic MVC application with CRUD capabilites.
     links:
+    - anchor: "Demo"
+      url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"
     - anchor: "GitHub"
       url: "https://github.com/sydneybroccoli/rails-mister-cocktail"
-    - anchor: "Demo"
-      url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"   
   - title: "Low-Cost Patient and Healthcare Record System"
     about: "Developing a joint hardware-software solution for deploying Electronic Healthcare Record-keeping systems for public health groups in developing nations around the world."
     skills:

@@ -242,14 +242,14 @@ def create_resume_full( resume )
 
           # ORGANIZATIONS
           data['experience']['organizations'].each do |org|
-            div class: 'exp-item organization' do
+            div class: 'exp-item organization item' do
               # ORGANIZATION
               p class: 'org-organization' do
                 org['organization']
               end
               # POSITION
-              p class: 'org-position' do
-                org['position']
+              p class: 'org-title' do
+                org['title']
               end
               # DATE_RANGE
               p class: 'org-date_range' do

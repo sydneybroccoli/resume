@@ -112,3 +112,36 @@
 }
 
 // ORGANIZATIONS
+.organization {
+  // STYLE
+  // FORMAT
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "title date"
+    "organization organization";
+
+    .org-title {
+      // STYLE
+      text-transform: uppercase;
+      font-weight: bold;
+      // FORMAT
+      margin: 0;
+      grid-area: title; 
+    }
+    .org-date_range {
+      // STYLE
+      font-style: italic;
+      // FORMAT 
+      margin: 0;
+      grid-area: date; 
+    }
+    .org-organization {
+      // STYLE
+      text-transform: uppercase;
+      // FORMAT 
+      margin: 0;
+      grid-area: organization; 
+    }
+}

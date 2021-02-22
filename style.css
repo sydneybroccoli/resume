@@ -152,6 +152,25 @@ ul.bubble-list {
   .volunteer .vol-duties {
     grid-area: duties; }
 
+.organization {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "title date" "organization organization"; }
+  .organization .org-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    grid-area: title; }
+  .organization .org-date_range {
+    font-style: italic;
+    margin: 0;
+    grid-area: date; }
+  .organization .org-organization {
+    text-transform: uppercase;
+    margin: 0;
+    grid-area: organization; }
+
 #resume-header {
   text-align: left;
   background: white;

@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+.si-row {
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+  p.row-title {
+    // STY:E
+    min-width: 100px; max-width: 100px;
+    font-weight: bold;
+    // FORMAT
+    text-align: right;
+    margin-right: 5px;
+  }
+
+  ul.row-list {
+
+  }
+}

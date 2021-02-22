@@ -39,6 +39,7 @@ ul.bullet-list {
 ul.bubble-list {
   list-style-type: none;
   padding-left: 0;
+  margin: 5px 0;
   display: flex;
   flex-wrap: wrap; }
   ul.bubble-list li {
@@ -172,5 +173,16 @@ ul#contact-items {
   @page {
     margin: 0.25in;
     size: A4; } }
+.si-row {
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 0; }
+  .si-row p.row-title {
+    min-width: 100px;
+    max-width: 100px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5px; }
 
 /*# sourceMappingURL=style.css.map */

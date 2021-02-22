@@ -285,16 +285,6 @@ def create_resume_full( resume )
                 "(#{edu['location']})"
               end
               div class: 'edu-content' do
-                # ORGS
-                ul class: 'edu-orgs bullet-list' do
-                  if !edu['orgs'].nil?
-                    edu['orgs'].each do |org|
-                      li class: 'edu-org' do
-                        org
-                      end
-                    end
-                  end
-                end
                 # DUTIES
                 ul class: 'edu-duties bullet-list' do
                   if !edu['duties'].nil?
@@ -302,6 +292,14 @@ def create_resume_full( resume )
                       li class: 'edu-duty' do
                         duty
                       end
+                    end
+                  end
+                end
+                # ORGS
+                ul class: 'edu-orgs bullet-list' do
+                  if !edu['orgs'].nil?
+                    li class: 'edu-org' do
+                      "ORGANIZATIONS: #{edu['orgs'].join('; ')}"
                     end
                   end
                 end
@@ -316,75 +314,61 @@ def create_resume_full( resume )
             'SKILLS/INTERESTS'
           end
 
-          # SKILLS
           skills = data['skills_interests']['skills']
+          interests = data['skills_interests']['interests']
+
+          # SKILLS
           div class: 'skills-content' do
-            # TECHNICAL
-            div class: 'skills-content', id:'skills-tech' do
-              # FRONT_END
-              div class: 'skills-tech', id: 'skills-tech_front-end' do
-                p class: 'skills-title' do 
-                  'FRONT END'
-                end
-                ul class: 'skills-list bubble-list'  do
-                  skills['technical']['front_end'].each do |skill|
-                    li class: 'skill-item' do
-                      skill
-                    end
+            # ROW: FRONT-END
+            div class: 'si-row', id: 'skills-front-end' do
+              p class: 'row-title', id: 'title_front-end' do 
+                'FRONT-END'
+              end
+              ul class: 'skills-list row-list bubble-list', id: 'list_front-end' do
+                skills['technical']['front_end'].each do |skill|
+                  li class: 'skill-item' do
+                    skill
                   end
                 end
               end
-
-              # BACK_END
-              div class: 'skills-tech', id: 'skills-tech_back-end' do
-                p class: 'skills-title' do 
-                  'BACK END'
-                end
-                ul class: 'skills-list bubble-list' do
-                  skills['technical']['back_end'].each do |skill|
-                    li class: 'skill-item' do
-                      skill
-                    end
-                  end
-                end
-              end
-
-              # TOOLS
-              div class: 'skills-tech', id: 'skills-tech_tools' do
-                p class: 'skills-title' do 
-                  'TOOLS'
-                end
-                ul class: 'skills-list bubble-list' do
-                  skills['technical']['tools'].each do |skill|
-                    li class: 'skill-item' do
-                      skill
-                    end
-                  end
-                end
-              end
-
-              # OTHER
-              div class: 'skills-tech', id: 'skills-tech_other' do
-                p class: 'skills-title' do 
-                  'OTHER'
-                end
-                ul class: 'skills-list bubble-list' do
-                  skills['technical']['other'].each do |skill|
-                    li class: 'skill-item' do
-                      skill
-                    end
-                  end
-                end
-              end
-
             end
-
-            # NON_TECHNICAL
-            div class: 'skills-nontech', id: 'skills-nontech' do
-              p class: 'skills-title' do
-                'NON-TECH'
+            # ROW: BACK-END
+            div class: 'si-row', id: 'skills-back-end' do
+              p class: 'row-title', id: 'title_back-end' do 
+                'BACK-END'
               end
-              ul class: 'skills-list bubble-list' do
+              ul class: 'skills-list row-list bubble-list', id: 'list_back-end' do
+                skills['technical']['back_end'].each do |skill|
+                  li class: 'skill-item' do
+                    skill
+                  end
+                end
+              end
+            end
+            # ROW: TOOLS
+            div class: 'si-row', id: 'skills-tools' do
+              p class: 'row-title', id: 'title_tools' do 
+                'TOOLS'
+              end
+              ul class: 'skills-list row-list bubble-list', id: 'list_tools' do
+                skills['technical']['tools'].each do |skill|
+                  li class: 'skill-item' do
+                    skill
+                  end
+                end
+              end
+            end
+            # ROW: OTHER
+            div class: 'si-row', id: 'skills-other' do
+              p class: 'row-title', id: 'title_other' do 
+                'OTHER'
+              end
+              ul class: 'skills-list row-list bubble-list', id: 'list_other' do
+                skills['technical']['other'].each do |skill|
+                  li class: 'skill-item' do
+                    skill
+                  end
+                end
                 skills['non_technical'].each do |skill|
                   li class: 'skill-item' do
                     skill
@@ -395,25 +379,17 @@ def create_resume_full( resume )
           end
 
           # INTERESTS
-          interests = data['skills_interests']['interests']
-          div class: 'interest-content' do
-            p class: 'interest-title' do
-              'INTERESTS'
-            end
-            # TECHNICAL
-            div class: 'interest-tech' do
-              ul class: 'interest-list bubble-list' do
+          div class: 'interests-content' do
+            div class: 'si-row', id: 'interests' do
+              p class: 'row-title', id: 'title_interests' do 
+                'INTERESTS'
+              end
+              ul class: 'interests-list row-list bubble-list', id: 'list_interests' do
                 interests['technical'].each do |interest|
                   li class: 'interest-item' do
                     interest
                   end
                 end
-              end
-            end
-
-            # NON_TECHNICAL
-            div class: 'interest-nontech' do
-              ul class: 'interest-list bubble-list' do
                 interests['non_technical'].each do |interest|
                   li class: 'interest-item' do
                     interest
@@ -421,12 +397,7 @@ def create_resume_full( resume )
                 end
               end
             end
-          end
-
-
-
-
-          
+          end          
         end # END OF SKILLS/INTERESTS
       end  # END OF RESUME CONTENT
 

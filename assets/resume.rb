@@ -145,11 +145,69 @@ def create_resume_full( resume )
             end
           end
         end
+
         # EXPERIENCE
         div class: 'resume-content', id: 'experience' do
           h1 class: 'section-header' do
             'EXPERIENCE'
           end
+
+          # PROFESSIONAL
+          data['experience']['professional'].each do |exp|
+            div class: 'exp-item experience' do
+              # TITLE
+              p class: 'exp-title' do
+                exp['title']
+              end
+
+              # COMPANY
+              p class: 'exp-company' do
+                exp['company']
+              end
+
+              # LOCATION
+              p class: 'exp-location' do
+                "(#{exp['location']})"
+              end
+              
+              # DATE
+              p class: 'exp-date_range' do
+                "#{exp['date']['start']} - #{exp['date']['end']}"
+              end
+              
+              # SKILLS
+              ul class: 'exp-skills bubble-list' do
+                exp['skills'].each do |skill|
+                  li class: 'exp-skill' do
+                    skill
+                  end
+                end
+              end
+              
+              # DUTIES
+              ul class: 'exp-duties bullet-list' do
+                exp['duties'].each do |duty|
+                  li class: 'exp-duty' do
+                    duty
+                  end
+                end
+              end
+            
+            end
+          end
+
+          # VOLUNTEER
+          data['experience']['volunteer'].each do |vol|
+            div class: 'exp-item volunteer' do
+            end
+          end
+
+          # ORGANIZATIONS
+          data['experience']['organizations'].each do |org|
+            div class: 'exp-item organization' do
+            end
+          end
+
         end
         # EDUCATION
         div class: 'resume-content', id: 'education' do

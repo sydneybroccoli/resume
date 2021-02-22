@@ -139,269 +139,252 @@ projects:
       url: "https://doi.org/10.1016/j.jht.2018.10.002"
 
 experience:
-- professional:
+  professional:
   - title: "Bartender"
     employment_type: PART_TIME
     company: "Mule & Elk Brewing"
     location: "Cle Elum, WA"
     date:
-    - start_date: "08/2020"
-      end_date: "Present"
-    deets:
-    - skills:
-      - "Customer Service"
-      - "Square POS"
-      duties:
-      - "Responsible for opening, regular operation, and closing of the brewery during normal business hours."
-      - "Enforment of COVID-19 safety standards for indoor/outdoor dining establishments."
+      start: "08/2020"
+      end: "Present"
+    skills:
+    - "Customer Service"
+    - "Square POS"
+    duties:
+    - "Responsible for opening, regular operation, and closing of the brewery during normal business hours."
+    - "Enforment of COVID-19 safety standards for indoor/outdoor dining establishments."
 
   - title: "Brewers Assistant"
     employment_type: PART_TIME
     company: "Mule & Elk Brewing"
     location: "Cle Elum, WA"
     date:
-    - start_date: "11/2020"
-      end_date: "Present"
-    deets:
-    - skills:
-      - "Brewing Equipment"
-      - "Food Safety"
-      duties:
-      - "Performed regular cleaning of tap lines and brewing equpiment."
+      start: "11/2020"
+      end: "Present"
+    skills:
+    - "Brewing Equipment"
+    - "Food Safety"
+    duties:
+    - "Performed regular cleaning of tap lines and brewing equpiment."
 
   - title: "Bartender"
     employment_type: PART_TIME
     company: "Scaffidi's Hideout"
     location: "Milwaukee, WI"
     date:
-    - start_date: "07/2018"
-      end_date: "11/2019"
-    deets:
-    - skills:
-      - "Customer Service"
-      - "Food Safety"
-      duties:
-      - "Responsible for opening duties and daily operation of the bar."
-      - "Leveraged interpersonal skills in order to provide guests with quality service."
+      start: "07/2018"
+      end: "11/2019"
+    skills:
+    - "Customer Service"
+    - "Food Safety"
+    duties:
+    - "Responsible for opening duties and daily operation of the bar."
+    - "Leveraged interpersonal skills in order to provide guests with quality service."
 
   - title: "Travel/Backpacking"
     employment_type: FULL_TIME
     company: null
     location: Various
     date:
-    - start_date: "02/2018"
-      end_date: "05/2018"
-    deets:
-    - skills:
-      - "Problem Solving"
-      - "Planning"
-      - "Communication"
-      duties:
-      - "Cultivated language and communication skills through verbal and non-verbal communication."
-      - "Acculturated when faced with new and different cultural and language barriers."
-      - "Modified travel plans to accomodate changing circumstances or new information."
+      start: "02/2018"
+      end: "05/2018"
+    skills:
+    - "Problem Solving"
+    - "Planning"
+    - "Communication"
+    duties:
+    - "Cultivated language and communication skills through verbal and non-verbal communication."
+    - "Acculturated when faced with new and different cultural and language barriers."
+    - "Modified travel plans to accomodate changing circumstances or new information."
 
   - title: "Lead Guest Services"
     employment_type: PART_TIME
     company: "iPic Theaters: Gold Glass Cinemas"
     location: "Glendale, WI"
     date:
-    - start_date: "09/2017"
-      end_date: "02/2018"
-    deets:
-    - skills:
-      - "Customer Service"
-      - "Point of Sale (POS)"
-      - "Management"
-      duties:
-      - "Trained all (5) new Guest Services employees hired."
-      - "Resolved most customer service complaints; escalated to a superior as needed."
-      - "Managed the Guest Services counter; assisting 500+ customers daily, in-house and/or over-the-phone."
+      start: "09/2017"
+      end: "02/2018"
+    skills:
+    - "Customer Service"
+    - "Point of Sale (POS)"
+    - "Management"
+    duties:
+    - "Trained all (5) new Guest Services employees hired."
+    - "Resolved most customer service complaints; escalated to a superior as needed."
+    - "Managed the Guest Services counter; assisting 500+ customers daily, in-house and/or over-the-phone."
 
   - title: "Banquet Server"
     employment_type: PART_TIME
     company: "iPic Theaters: Gold Glass Cinemas"
     location: "Glendale, WI"
     date:
-    - start_date: "11/2017"
-      end_date: "02/2018"
-    deets:
-    - skills: 
-      - "Customer Service"
-      - "Point of Sale (POS)"
-      - "Food Safety"
-      duties:
-      - "Maintained a clean and organized banquet area."
-      - "Conveyed information regarding available food/drink options to guests."
+      start: "11/2017"
+      end: "02/2018"
+    skills: 
+    - "Customer Service"
+    - "Point of Sale (POS)"
+    - "Food Safety"
+    duties:
+    - "Maintained a clean and organized banquet area."
+    - "Conveyed information regarding available food/drink options to guests."
 
   - title: "Research Engineer"
     employment_type: CONTRACT
     company: "Food & Drug Administration"
     location: "White Oak, MD"
     date:
-    - start_date: "05/2015"
-      end_date: "08/2017"
-    deets:
-    - skills:
-      - "Biomechanics"
-      - "VICON"
-      - "Motion Capture"
-      - "Electroencephalography (EEG)"
-      - "Research"
-      - "Data Collection"
-      - "Data Processing"
-      - "IRB"
-      - "Medical Device"
-      - "Prosthetics"
-      - "Matlab"
-      - "Statistics"
-      - "Healthcare"
-      duties:
-      - "Developed 2 testing protocols using novel methods and modification of existing testing methods/systems."
-      - "Utilized motion capture and electroencephalography (EEG) to measure kinematic movement and brain function, respectively."
-      - "Streamlined documentation and data collection protocols through creation of a physical filing system with corresponsing electronic data libraries."
-      - "Conducted preliminary testing on 10+ subjects, from system calibrations to data collection, processing and analysis."
-      - "Demonstrated our findings through lab tours, presentations and publications."
+      start: "05/2015"
+      end: "08/2017"
+    skills:
+    - "Biomechanics"
+    - "VICON"
+    - "Motion Capture"
+    - "Electroencephalography (EEG)"
+    - "Research"
+    - "Data Collection"
+    - "Data Processing"
+    - "IRB"
+    - "Medical Device"
+    - "Prosthetics"
+    - "Matlab"
+    - "Statistics"
+    - "Healthcare"
+    duties:
+    - "Developed 2 testing protocols using novel methods and modification of existing testing methods/systems."
+    - "Utilized motion capture and electroencephalography (EEG) to measure kinematic movement and brain function, respectively."
+    - "Streamlined documentation and data collection protocols through creation of a physical filing system with corresponsing electronic data libraries."
+    - "Conducted preliminary testing on 10+ subjects, from system calibrations to data collection, processing and analysis."
+    - "Demonstrated our findings through lab tours, presentations and publications."
 
   - title: "Research Assistant"
     employment_type: PART_TIME
     company: "Tech4POD @ Marquette University"
     location: "Milwaukee, WI"
     date:
-    - start_date: "01/2015"
-      end_date: "05/2015"
-    deets:
-    - skills:
-      - "Autoscoper"
-      - "Data Processing"
-      - "Biomechanics"
-      duties:
-      - "Utilized Autoscoper software to track/extract data from x-ray fluoroscopy images."
-      - "Processed data from 25+ trials; each trial containing 100's of images."
+      start: "01/2015"
+      end: "05/2015"
+    skills:
+    - "Autoscoper"
+    - "Data Processing"
+    - "Biomechanics"
+    duties:
+    - "Utilized Autoscoper software to track/extract data from x-ray fluoroscopy images."
+    - "Processed data from 25+ trials; each trial containing 100's of images."
 
-- volunteer:
+  volunteer:
   - organization: "Mountains To Sound Greenway"
     location: "North Bend, WA"
     date:
-    - start: null
+      start: null
       end: null 
-    deets:
-    - cause: "Environment"
-      about: "Mountains to Sound Greenway Trust is a group whose goal is to lead and inspire action to conserve and enhance the local landscapes of Seattle, from the Cascade Mountains to Central Washington, helping to find the long-term balance between people and nature."
-      duties:
-      - "Transported plants from pots to the nursery."
-      - "Cleaned wooded areas and planted fresh shrubbery."
+    cause: "Environment"
+    about: "Mountains to Sound Greenway Trust is a group whose goal is to lead and inspire action to conserve and enhance the local landscapes of Seattle, from the Cascade Mountains to Central Washington, helping to find the long-term balance between people and nature."
+    duties:
+    - "Transported plants from pots to the nursery."
+    - "Cleaned wooded areas and planted fresh shrubbery."
   - organization: "Seattle's Union Gospel Mission"
     location: "Seattle, WA"
     date:
-    - start: "2012"
+      start: "2012"
       end: null
-    deets:
-    - cause: "Poverty Alleviation"
-      about: "The Seattle Union Gospel Mission is a non-profit group whose goal is to serve, rescue and transform the lives of the hurting and homeless population in Seattle by providing emergency care and long-term recovery services."
-      duties:
-      - "Distributed food and other goods (blankets; clothes) to homeless populations around the city of Seattle."
+    cause: "Poverty Alleviation"
+    about: "The Seattle Union Gospel Mission is a non-profit group whose goal is to serve, rescue and transform the lives of the hurting and homeless population in Seattle by providing emergency care and long-term recovery services."
+    duties:
+    - "Distributed food and other goods (blankets; clothes) to homeless populations around the city of Seattle."
   - organization: "Outdoors For All Foundation"
     location: "North Bend, WA"
     date:
-    - start: "2012"
+      start: "2012"
       end: null
-    deets:
-    - cause: "Health/Disability"
-      about: "Outdoors For All is a group that aims to improve the quality of life for children and adults with disabilities by providing adaptive and therapeutic outdoor recreation."
-      duties:
-      - "Accomodated rock climbers by providing safe belay or on-wall assistance."
+    cause: "Health/Disability"
+    about: "Outdoors For All is a group that aims to improve the quality of life for children and adults with disabilities by providing adaptive and therapeutic outdoor recreation."
+    duties:
+    - "Accomodated rock climbers by providing safe belay or on-wall assistance."
   - organization: "Special Olympics Washington"
     location: "Tacoma, WA"
     date:
-    - start: "2011"
+      start: "2011"
       end: "2014"
-    deets:
-    - cause: "Health/Disability"
-      about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with physical and intellectual disabilities."
-      duties:
-      - "Maintained records for events (Shot Put; Long Jump)."
-      - "Marshalled athletes from check-in to award delivery."
+    cause: "Health/Disability"
+    about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with physical and intellectual disabilities."
+    duties:
+    - "Maintained records for events (Shot Put; Long Jump)."
+    - "Marshalled athletes from check-in to award delivery."
   - organization: "Hunger Cleanup"
     location: "Milwaukee, WI"
     date:
-    - start: "2012"
+      start: "2012"
       end: "2015"
-    deets:
-    - cause: "Community Service"
-      about: "Hunger Clean Up is a day of service which aims to build community relations by deploying individuals and groups to 50 different non-profit sites (food banks, homeless shelters, neighborhoods, etc) around Miwaukee."
-      duties:
-      - "Strengthened community relations through a variety of service projects: picking up trash in local neighborhoods, planting a community garden, and yard work for elderly neighbors."
-
-- organizations:
-      - organization: "Marquette Women's Club Lacrosse"
-        position: "Member"
-        date:
-          - start: "2013"
-            end: "2017"
-      - organization: "Marquette Women's Club Lacrosse"
-        position: "Treasurer"
-        date:
-          - start: "2015"
-            end: "2016"
-      - organization: "Alpha Chi Women's Fraternity"
-        position: "Member"
-        date:
-          - start: "2014"
-            end: "2017"
+    cause: "Community Service"
+    about: "Hunger Clean Up is a day of service which aims to build community relations by deploying individuals and groups to 50 different non-profit sites (food banks, homeless shelters, neighborhoods, etc) around Miwaukee."
+    duties:
+    - "Strengthened community relations through a variety of service projects: picking up trash in local neighborhoods, planting a community garden, and yard work for elderly neighbors."
+  organizations:
+  - organization: "Marquette Women's Club Lacrosse"
+    position: "Member"
+    date:
+      start: "2013"
+      end: "2017"
+  - organization: "Marquette Women's Club Lacrosse"
+    position: "Treasurer"
+    date:
+      start: "2015"
+      end: "2016"
+  - organization: "Alpha Chi Women's Fraternity"
+    position: "Member"
+    date:
+      start: "2014"
+      end: "2017"
 
 education:
 - type: BOOTCAMP
   school: "Le Wagon"
   location: "Bali, Indonesia"
   degree:
-  - type: "Certificate"
+    type: "Certificate"
     topic: "Full Stack Web Development"
   date:
-  - start: "01/2020"
+    start: "01/2020"
     end: "04/2020"
-  deets:
-  - orgs: null
-    duties:
-    - "9 week intensive coding bootcamp focused on HTML, CSS, Bootstrap, Javascript ES2015, SQL, git, GitHub, Heroku, and Ruby on Rails."
-    - "Designed, implemented and shipped to production 2 projects: a mock Air BNB clone and a student-pitched business idea."
+  orgs: null
+  duties:
+  - "9 week intensive coding bootcamp focused on HTML, CSS, Bootstrap, Javascript ES2015, SQL, git, GitHub, Heroku, and Ruby on Rails."
+  - "Designed, implemented and shipped to production 2 projects: a mock Air BNB clone and a student-pitched business idea."
 - type: UNIVERSITY
   school: "Marquette University"
   location: "Milwaukee, WI, USA"
   degree:
-  - type: "B.S."
+    type: "B.S."
     topic: "Biomedical Engineering"
   date:
-  - start: "08/2013"
+    start: "08/2013"
     end: "05/2017"
-  deets:
-  - orgs:
-    - "Alpha Chi Omega Women's Fraternity"
-    - "Marquette Women's Club Lacrosse"
-    duties:
-    - "MAJOR: Bioelectronics"
-    - "MINOR: Electrical Engineering"
+  orgs:
+  - "Alpha Chi Omega Women's Fraternity"
+  - "Marquette Women's Club Lacrosse"
+  duties:
+  - "MAJOR: Bioelectronics"
+  - "MINOR: Electrical Engineering"
 - type: HIGH_SCHOOL
   school: "Eastlake High School"
   location: "Sammamish, WA, USA"
   degree:
-  - type: "High School Diploma"
+    type: "High School Diploma"
     topic: null
   date:
-  - start: "09/2010"
+    start: "09/2010"
     end: "06/2013"
-  deets:
-  - orgs:
-    - "Science Honor Society (Officer)"
-    - "National Honor Society"
-    - "Lake Sammamish Lacrosse Club"
-    - "Club Soccer (Indoor/Outdoor)"
-    duties: null
+  orgs:
+  - "Science Honor Society (Officer)"
+  - "National Honor Society"
+  - "Lake Sammamish Lacrosse Club"
+  - "Club Soccer (Indoor/Outdoor)"
+  duties: null
 
 skills_interests:
-- skills:
-  - technical:
-    - FRONT_END:
+  skills:
+    technical:
+      FRONT_END:
       - "HTML"
       - "(S)CSS"
       - "SASS"
@@ -459,20 +442,19 @@ skills_interests:
     - "Adaptability"
     - "Enthusiasm"
     - "Work Ethic"
-
   interests:
-  - technical:
-      - "Environmentalism"
-      - "Sustainability"
-      - "Healthcare"
-      - "Travel"
+    technical:
+    - "Environmentalism"
+    - "Sustainability"
+    - "Healthcare"
+    - "Travel"
     non_technical:
-      - "Reading"
-      - "Podcasts"
-      - "Hiking"
-      - "Snowboarding"
-      - "Dirt Biking"
-      - "Paddleboarding"
+    - "Reading"
+    - "Podcasts"
+    - "Hiking"
+    - "Snowboarding"
+    - "Dirt Biking"
+    - "Paddleboarding"
 
 languages:
 - language: "English"

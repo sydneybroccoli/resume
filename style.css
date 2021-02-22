@@ -197,6 +197,22 @@ ul#contact-items {
     color: white;
     background-color: #008B8B; }
 
+.pub-citation .pub-title {
+  font-weight: bold; }
+.pub-citation .pub-publisher {
+  font-style: italic; }
+
+.publication a {
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+  padding-left: 20px; }
+.publication a:hover {
+  padding: 2px;
+  margin-left: 20px;
+  color: white;
+  background-color: #008B8B; }
+
 .si-row {
   height: auto;
   display: flex;

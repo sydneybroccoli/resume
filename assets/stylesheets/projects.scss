@@ -39,3 +39,30 @@
 }
 
 // PUBLICATIONS
+.pub-citation {
+  // STYLE
+  // FORMAT
+
+  .pub-authors {}
+  .pub-date {}
+  .pub-title { font-weight: bold; }
+  .pub-publisher { font-style: italic; }
+
+}
+
+.publication {
+  a {
+    // STYLE
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+    // FORMAT
+    padding-left: 20px;
+  }
+  a:hover {
+    padding: 2px; margin-left: 20px;
+    color: white;
+    background-color: $color_main;
+  }
+}
+

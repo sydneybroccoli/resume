@@ -1,0 +1,231 @@
+name: "Sydney Barovsky"
+headline: 
+  - "Bioelectrical Engineer"
+  - "Full Stack Software Engineer"
+about: null
+contact:
+- type: "location"
+  icon: "<i class='fas fa-map-marker'></i>"
+  text: "Seattle, WA, USA"
+  url: null
+- type: "email"
+  icon: "<i class='fas fa-at'></i>"
+  text: "sbarovsky@gmail.com"
+  url: "mailto:sbarovsky@gmail.com"
+- type: "webpage"
+  icon: "<i class='fas fa-globe'></i>"
+  text: "sydneybarovsky.com"
+  url: "https://sydneybarovsky.com"
+- type: "github"
+  icon: "<i class='fab fa-github'></i>"
+  text: "@gh/sydneybroccoli"
+  url: "https://github.com/sydneybroccoli"
+
+projects:
+  technical:  
+  - title: "Scrapit App"
+    about: null
+    skills:
+    - "Firebase"
+    - "Expo"
+    - "React"
+    - "Redux"
+    - "Android"
+    - "iOS"
+    duties:
+    - "Managed communication across multiple teams while continuing development through pilot testing."
+    - "Collaborated on the development of a mobile application by refactoring of the PWA prototype."
+    - "Streamlined permission requests for iOS and Android devices."
+    - "Extended user functionality by creating functionality to share/download QR code images."
+    links: null
+  - title: "Right Dose"
+    about: null
+    skills:
+    - "Ruby on Rails"
+    - "Bootstrap"
+    - "Algolia"
+    - "Date-FNS"
+    - "Sortable"
+    - "Sweet Alert"
+    - "Cloudinary"
+    - "Faker"
+    - "Pundit"
+    - "Devise"
+    - "SWAL Forms"
+    - "SASS"
+    - "ERB"
+    - "Webpacker"
+    - "Capybara"
+    - "Trello"
+    - "Figma"
+    duties:
+    - "Coded an extensive seed file based on data from the Queensland Ambulance Service protocols."
+    - "Developed a variety of functionality related to the back-end of the paramedic-side of the application: basic dashboard design/functionality; drug 'drag and drop' and 'dose' functionality; algorithms for dosage recording and timing (based on entered patient info); etc."
+    links:
+    - anchor: "Demo"
+      url: "https://right-dose.herokuapp.com/"
+    - anchor: "GitHub"
+      url: "https://github.com/josephdriver/right-dose"
+  - title: "The Mile High Club"
+    about: null
+    skills:
+    - "Ruby on Rails"
+    - "Bootstrap"
+    - "Flatpickr"
+    - "jQuery"
+    - "Mapbox"
+    - "Cloudinary"
+    - "Faker"
+    - "Pundit"
+    - "Devise"
+    - "Geocoder"
+    - "SASS"
+    - "ERB"
+    - "Simple Form"
+    - "Webpacker"
+    - "PG_Search"
+    - "Trello"
+    - "Figma"
+    duties:
+    - "Coded a seed file based on data scraped from various aircraft record pages."
+    links:
+    - anchor: "Demo"
+      url: "https://the-milehigh-club.herokuapp.com/"
+    - anchor: "GitHub"
+      url: "https://github.com/sydneybroccoli/the-milehigh-club"
+  - title: "Mister Cocktail/Soup of the Day"
+    about: null
+    skills:
+    - "Ruby on Rails"
+    - "SASS"
+    - "Bootstrap"
+    - "Webpacker"
+    - "RSpec"
+    - "PG_Search"
+    - "Simple Form"
+    - "Faker"
+    - "ERB"
+    duties: null
+    links:
+    - anchor: "Demo"
+      url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"
+    - anchor: "GitHub"
+      url: "https://github.com/sydneybroccoli/rails-mister-cocktail"
+
+  publications:
+  - title: "Assessing kinematic variability during performance of Jebsen-Taylor Hand Function Test."
+    publisher: "Journal of Hand Therapy"
+    date: "March 2019"
+    authors: "Konston, K.L., Wang, S., Barovsky, S., Bloomer, C., Wozniczka, L., Civillico, E.F."
+    link: 
+      anchor: "https://doi.org/10.1016/j.jht.2018.10.002"
+      url: "https://doi.org/10.1016/j.jht.2018.10.002"
+
+experience:
+  professional:
+  - title: "Freelance Software Developer"
+    employment_type: PART_TIME
+    company: null
+    location: null
+    date:
+      start: "04/2020"
+      end: "CURRENT"
+    skills:
+    - "Ruby on Rails"
+    - "PostgreSQL"
+    - "React"
+    - "Redux"
+    - "Firebase"
+    - "Expo"
+    duties:
+    - "Supported development of multiple projects where duties included: feature development, testing and optimization, code reviews, etc."
+    - "Managed remote team/client communications in discussion of all aspects related to the project(s)."
+    - "Built custom web-based applications and mobile-based applications (iOS and Android)."
+
+  - title: "Bartender"
+    employment_type: PART_TIME
+    company: "Mule & Elk Brewing"
+    location: "Cle Elum, WA"
+    date:
+      start: "08/2020"
+      end: "CURRENT"
+    skills: null
+    duties: null
+
+  - title: "Brewers Assistant"
+    employment_type: PART_TIME
+    company: "Mule & Elk Brewing"
+    location: "Cle Elum, WA"
+    date:
+      start: "11/2020"
+      end: "CURRENT"
+    skills: null
+    duties: null
+
+  - title: "Research Engineer"
+    employment_type: CONTRACT
+    company: "Food & Drug Administration"
+    location: "White Oak, MD"
+    date:
+      start: "05/2015"
+      end: "08/2017"
+    skills:
+    - "Biomechanics"
+    - "VICON"
+    - "Motion Capture"
+    - "Electroencephalography (EEG)"
+    - "Research"
+    - "Data Collection"
+    - "Data Processing"
+    - "IRB"
+    - "Medical Device"
+    - "Prosthetics"
+    - "Matlab"
+    - "Statistics"
+    - "Healthcare"
+    duties:
+    - "Developed 2 testing protocols using novel methods and modification of existing testing methods/systems."
+    - "Utilized motion capture and electroencephalography (EEG) to measure kinematic movement and brain function, respectively."
+    - "Streamlined documentation and data collection protocols through creation of a physical filing system with corresponsing electronic data libraries."
+    - "Conducted preliminary testing on 10+ subjects, from system calibrations to data collection, processing and analysis."
+    - "Demonstrated our findings through lab tours, presentations and publications."
+
+  - title: "Research Assistant"
+    employment_type: PART_TIME
+    company: "Tech4POD @ Marquette University"
+    location: "Milwaukee, WI"
+    date:
+      start: "01/2015"
+      end: "05/2015"
+    skills:
+    - "Autoscoper"
+    - "Data Processing"
+    - "Biomechanics"
+    duties: null
+
+education:
+- type: BOOTCAMP
+  school: "Le Wagon"
+  location: "Bali, Indonesia"
+  degree:
+    type: "Certificate"
+    topic: "Full Stack Web Development"
+  date:
+    grad_year: "2020"
+    start: "01/2020"
+    end: "04/2020"
+  orgs: null
+  duties: null
+- type: UNIVERSITY
+  school: "Marquette University"
+  location: "Milwaukee, WI, USA"
+  degree:
+    type: "Bachelor of Science"
+    topic: "Biomedical Engineering"
+  date:
+    grad_year: "2017"
+    start: "08/2013"
+    end: "05/2017"
+  orgs: null
+  duties: null
+  

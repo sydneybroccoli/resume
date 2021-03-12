@@ -10,6 +10,7 @@
 14pt = 19 px = 1.2 em
 24pt = 32 px = 2.0 em
 */
+@import './variables.scss';
 
 @media print {
   #page-break { page-break-after: always; }

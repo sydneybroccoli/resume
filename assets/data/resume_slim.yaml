@@ -1,7 +1,5 @@
 name: "Sydney Barovsky"
-headline: 
-  - "Bioelectrical Engineer"
-  - "Full Stack Software Engineer"
+headline: "Bioelectrical Engineer/Full Stack Software Engineer"
 about: "Full Stack Software Engineer with 3 year of experience coding ranging from web development or data processing/analysis.  Educated and experienced in the fields Biomedical Engineering and medical device research."
 contact:
 - type: "location"
@@ -22,17 +20,17 @@ contact:
   url: "https://sydneybarovsky.com"
 - type: "linkedin"
   icon: "<i class='fab fa-linkedin-in'></i>"
-  text: "@in/sydneybarovsky"
+  text: "@sydneybarovsky"
   url: "https://linkedin.com/in/sydneybarovsky"
 - type: "github"
   icon: "<i class='fab fa-github'></i>"
-  text: "@gh/sydneybroccoli"
+  text: "@sydneybroccoli"
   url: "https://github.com/sydneybroccoli"
 
 projects:
   technical:  
   - title: "Scrapit App"
-    about: "Making zero waste, zero-hassle.  Scrapit partners with local municipalities to gamify curbside composting and lets users earn rewards they actually want.\nCurrently in pilot testing at MIT."
+    about: "Making zero waste, zero-hassle.  Scrapit partners with local municipalities to gamify curbside composting and lets users ear rewards they actually want."
     skills:
     - "Firebase"
     - "Expo"
@@ -41,13 +39,13 @@ projects:
     - "Android"
     - "iOS"
     duties:
-    - "Managed communication across multiple teams while continuing development through pilot testing."
-    - "Collaborated on the development of a mobile application by refactoring of the PWA prototype."
-    - "Streamlined permission requests for iOS and Android devices."
-    - "Extended user functionality by creating functionality to share/download QR code images."
+    - "Collaborated on the project across multiple teams; development team (2+ person) developed a mobile application, based on a web application prototype."
+    - "Refactored all permission requests into a single re-usable method."
+    - "Developed functionality to allow users to share or download QR code images."
+    - "Continued development while pilot testing."
     links: null
   - title: "Right Dose"
-    about: "Saving patients; helping paramedics. Provides a flexible, robust and customisable framework for any pre-hospital service by which active intervention and dosage information is readily updated and deployed to employees for easy reference while on-the-job."
+    about: "Saving patients; helping paramedics. Provides a flexible framework for pre-hospital services by which to provide active intervention and dosage information."
     skills:
     - "Ruby on Rails"
     - "Bootstrap"
@@ -67,10 +65,8 @@ projects:
     - "Trello"
     - "Figma"
     duties:
-    - "Collaborated (4-person team) from pitch to working prototype in 2 weeks."
-    - "Designed the full application using Figma."
-    - "Coded an extensive seed file based on data from the Queensland Ambulance Service protocols."
-    - "Developed a variety of functionality related to the back-end of the paramedic-side of the application: basic dashboard design/functionality; drug 'drag and drop' and 'dose' functionality; algorithms for dosage recording and timing (based on entered patient info); etc."
+    - "Collaborate (4-person team) using Trello and git/GitHub to develop the front- and back-ends of the project."
+    - "Responsible for working on the back-end of the paramedic-side of the application."
     links:
     - anchor: "Demo"
       url: "https://right-dose.herokuapp.com/"
@@ -97,8 +93,7 @@ projects:
     - "Trello"
     - "Figma"
     duties:
-    - "Collaborated (4-person team) from idea to prototype in 1 week."
-    - "Coded a seed file based on data scraped from various aircraft record pages."
+    - "Collaborated (4-person team) using Trello and git/GitHub to develop the front- and back-ends of the project."
     links:
     - anchor: "Demo"
       url: "https://the-milehigh-club.herokuapp.com/"
@@ -117,7 +112,7 @@ projects:
     - "Faker"
     - "ERB"
     duties:
-    - "Designed and developed a basic MVC application with CRUD capabilites."
+    - Designed and developed a basic MVC application with CRUD capabilites.
     links:
     - anchor: "Demo"
       url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"
@@ -143,25 +138,6 @@ projects:
 
 experience:
   professional:
-  - title: "Freelance Software Developer"
-    employment_type: PART_TIME
-    company: null
-    location: null
-    date:
-      start: "04/2020"
-      end: "CURRENT"
-    skills:
-    - "Ruby on Rails"
-    - "PostgreSQL"
-    - "React"
-    - "Redux"
-    - "Firebase"
-    - "Expo"
-    duties:
-    - "Supported development of multiple projects where duties included: feature development, testing and optimization, code reviews, etc."
-    - "Managed remote team/client communications in discussion of all aspects related to the project(s)."
-    - "Built custom web-based applications and mobile-based applications (iOS and Android)."
-
   - title: "Bartender"
     employment_type: PART_TIME
     company: "Mule & Elk Brewing"
@@ -174,8 +150,7 @@ experience:
     - "Square POS"
     duties:
     - "Responsible for opening, regular operation, and closing of the brewery during normal business hours."
-    - "Educated customers about various brews ranging from English-style cask ales to PNW-style IPAs."
-    - "Enforcement of COVID-19 safety standards for indoor/outdoor dining establishments."
+    - "Enforment of COVID-19 safety standards for indoor/outdoor dining establishments."
 
   - title: "Brewers Assistant"
     employment_type: PART_TIME
@@ -188,7 +163,7 @@ experience:
     - "Brewing Equipment"
     - "Food Safety"
     duties:
-    - "Performed regular cleaning of tap lines and brewing equpiment within the brewery and other local establishments."
+    - "Performed regular cleaning of tap lines and brewing equpiment."
 
   - title: "Bartender"
     employment_type: PART_TIME
@@ -201,8 +176,8 @@ experience:
     - "Customer Service"
     - "Food Safety"
     duties:
+    - "Responsible for opening duties and daily operation of the bar."
     - "Leveraged interpersonal skills in order to provide guests with quality service."
-    - "Assisted with operation of weekly pool leagues."
 
   - title: "Travel/Backpacking"
     employment_type: FULL_TIME
@@ -233,7 +208,7 @@ experience:
     - "Management"
     duties:
     - "Trained all (5) new Guest Services employees hired."
-    - "Resolved any customer service complaints; escalated to a superior as needed."
+    - "Resolved most customer service complaints; escalated to a superior as needed."
     - "Managed the Guest Services counter; assisting 500+ customers daily, in-house and/or over-the-phone."
 
   - title: "Banquet Server"
@@ -315,7 +290,7 @@ experience:
     cause: "Poverty Alleviation"
     about: "The Seattle Union Gospel Mission is a non-profit group whose goal is to serve, rescue and transform the lives of the hurting and homeless population in Seattle by providing emergency care and long-term recovery services."
     duties:
-    - "Distributed food and various goods (blankets; clothes) to homeless populations around the city of Seattle."
+    - "Distributed food and other goods (blankets; clothes) to homeless populations around the city of Seattle."
   - title: "Volunteer"
     organization: "Outdoors For All Foundation"
     location: "North Bend, WA"
@@ -336,7 +311,7 @@ experience:
     about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with physical and intellectual disabilities."
     duties:
     - "Maintained records for events (Shot Put; Long Jump)."
-    - "Marshalled athletes from check-in to events and/or award delivery."
+    - "Marshalled athletes from check-in to award delivery."
   - title: "Volunteer"
     organization: "Hunger Cleanup"
     location: "Milwaukee, WI"
@@ -346,7 +321,7 @@ experience:
     cause: "Community Service"
     about: "Hunger Clean Up is a day of service which aims to build community relations by deploying individuals and groups to 50 different non-profit sites (food banks, homeless shelters, neighborhoods, etc) around Miwaukee."
     duties:
-    - "Strengthened community relations through a variety of service projects: picking up trash in local neighborhoods; planting a community garden; and yard work for elderly neighbors."
+    - "Strengthened community relations through a variety of service projects: picking up trash in local neighborhoods, planting a community garden, and yard work for elderly neighbors."
   organizations:
   - title: "Member"
     organization: "Marquette Women's Club Lacrosse"

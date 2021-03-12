@@ -1,18 +1,17 @@
 @import './variables.scss';
 
 .si-row {
-  height: auto;
   display: flex;
   align-items: center;
   margin: 0;
 
   p.row-title {
-    // STY:E
+    // STYLE
     min-width: 100px; max-width: 100px;
     font-weight: bold;
     // FORMAT
     text-align: right;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
   }
 
   ul.row-list {

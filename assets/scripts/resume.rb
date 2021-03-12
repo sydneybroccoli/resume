@@ -1,14 +1,3 @@
-# frozen_string_literal: true
-require 'yaml'
-require 'fileutils'
-require 'markaby'
-
-# style_uri = path()
-# output_uri = path()
-
-data_full = YAML.load_file('./data/resume.yaml')
-mab_full = Markaby::Builder.new( { data: data_full } )
-
 def create_resume_full( resume )
   resume.html do
     # HTML HEADER
@@ -164,13 +153,17 @@ def create_resume_full( resume )
               end
 
               # COMPANY
-              p class: 'exp-company' do
-                exp['company']
+              if !exp['company'].nil?
+                p class: 'exp-company' do
+                  exp['company']
+                end
               end
 
               # LOCATION
-              p class: 'exp-location' do
-                "(#{exp['location']})"
+              if !exp['location'].nil?
+                p class: 'exp-location' do
+                  "(#{exp['location']})"
+                end
               end
               
               # DATE
@@ -305,7 +298,7 @@ def create_resume_full( resume )
                 ul class: 'edu-orgs bullet-list' do
                   if !edu['orgs'].nil?
                     li class: 'edu-org' do
-                      "ORGANIZATIONS: #{edu['orgs'].join('; ')}"
+                      "#{edu['orgs'].join('; ')}"
                     end
                   end
                 end
@@ -326,7 +319,7 @@ def create_resume_full( resume )
           # SKILLS
           div class: 'skills-content' do
             # ROW: FRONT-END
-            div class: 'si-row', id: 'skills-front-end' do
+            div class: 'si-row print-nobreak', id: 'skills-front-end' do
               p class: 'row-title', id: 'title_front-end' do 
                 'FRONT-END'
               end
@@ -339,7 +332,7 @@ def create_resume_full( resume )
               end
             end
             # ROW: BACK-END
-            div class: 'si-row', id: 'skills-back-end' do
+            div class: 'si-row print-nobreak', id: 'skills-back-end' do
               p class: 'row-title', id: 'title_back-end' do 
                 'BACK-END'
               end
@@ -352,7 +345,7 @@ def create_resume_full( resume )
               end
             end
             # ROW: TOOLS
-            div class: 'si-row', id: 'skills-tools' do
+            div class: 'si-row print-nobreak', id: 'skills-tools' do
               p class: 'row-title', id: 'title_tools' do 
                 'TOOLS'
               end
@@ -365,7 +358,7 @@ def create_resume_full( resume )
               end
             end
             # ROW: OTHER
-            div class: 'si-row', id: 'skills-other' do
+            div class: 'si-row print-nobreak', id: 'skills-other' do
               p class: 'row-title', id: 'title_other' do 
                 'OTHER'
               end
@@ -386,7 +379,7 @@ def create_resume_full( resume )
 
           # INTERESTS
           div class: 'interests-content' do
-            div class: 'si-row', id: 'interests' do
+            div class: 'si-row print-nobreak', id: 'interests' do
               p class: 'row-title', id: 'title_interests' do 
                 'INTERESTS'
               end
@@ -411,14 +404,3 @@ def create_resume_full( resume )
   end  # END OF HTML
 end
 
-# UPDATE STYLESHEET
-%x(sass ../assets/stylesheets/index.scss ../style.css)
-
-# SAVE HTML OUTPUTS
-resume = File.new('./outputs/resume.html', 'w+')
-resume.puts create_resume_full(mab_full).to_s
-resume.close()
-
-# SET INDEX
-FileUtils.cp('../assets/outputs/resume.html',
-              '../index.html')

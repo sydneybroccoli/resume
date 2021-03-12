@@ -4,9 +4,11 @@ body {
   width: 100vw;
   overflow-x: hidden;
   font-size: $font-size;
+  font-family: $font-family;
 }
 header { display: none; }
 
+// CONTAINERS
 .container {
   height: auto;
   padding: 0 15px;
@@ -18,13 +20,14 @@ header { display: none; }
 
 .item {
   padding: 0 15px;
-  margin: 0 auto;
+  margin: 0 auto; margin-bottom: 10px;
 }
 
 // SECTION HEADERS
 h1.section-header {
   width: auto;
   font-size: $font-size_header;
+  font-family: $font-family_header;
   letter-spacing: $letter-spacing_header;
   border-bottom: $border-thickness solid $color_main;
 }
@@ -35,24 +38,26 @@ ul.bullet-list {
   list-style-position: outside;
   list-style-type: '- ';
   // FORMAT
-  margin: 5px 0;
+  margin: 2px 0;
   padding-left: 20px;
 }
 
 ul.bubble-list {
   list-style-type: none;
   padding-left: 0;
-  margin: 5px 0;
+  margin: 2px 0;
   display: flex;
   flex-wrap: wrap;
 
   li {
+    font-size: $font-size_bubble;
     padding: 2.5px 5px;
     margin: 1px 1px;
 
     // BUTTON STYLING
-    color: white;
-    background: $color_main;
+    font-family: $font-family_header;
+    text-transform: uppercase;
+    color: $color_main;
     border: 1px solid $color_main;
     border-radius: 20px;
   }

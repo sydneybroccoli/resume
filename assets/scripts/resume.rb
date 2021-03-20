@@ -14,73 +14,73 @@ def create_resume_full( resume )
     # HTML BODY
     body do
       # RESUME HEADER
-      div class: 'container', id: 'resume-header' do
-        # HEADER MAIN
-        div class: 'header-content col-left', id: 'header-main' do
-          # NAME
-          if !data['name'].nil?
-            h1 id: 'header-item header-name' do
-              data['name'].upcase
-            end
-          else
-            'UNNAMED RESUME'
-          end # END OF NAME
+      div class: 'header container item', id: 'resume-header' do
+        # NAME
+        if !data['name'].nil?
+          h1 class: 'header-item', id: 'header-name' do
+            data['name'].upcase
+          end
+        # else
+        #   'UNNAMED RESUME'
+        end # END OF HEADER-NAME
 
-          # HEADLINE(S)
-          if !data['headline'].nil?
-            case data['headline'].class
-            # SINGLE HEADLINE
-            when String
-              p class: 'header-item headline-item', id: 'header-headline' do
-                data['headline']
-              end
-            # MULTIPLE HEADLINES
-            when Array
-              ul class: 'header-item', id: 'header-headlines' do
-                data['headline'].each do |headline|
-                  li class: 'headline-item' do
-                    headline
-                  end
+        # HEADLINE(S)
+        if !data['headline'].nil?
+          case data['headline'].class.to_s
+          # SINGLE HEADLINE
+          when 'String'
+            p class: 'header-item', id: 'header-headline' do
+              data['headline']
+            end
+          # MULTIPLE HEADLINES
+          when 'Array'
+            ul class: 'header-item', id: 'header-headline' do
+              data['headline'].each do |head|
+                li class: '' do
+                  head
                 end
               end
-            # else
-            #   'UNKNOWN HEADLINE(S)'
-            end # END OF CASE
-          end  # END OF HEADLINE(S)
-
-          # ABOUT
-          if !data['about'].nil?
-            p class: 'header-item', id: 'header-about' do
-              data['about']
             end
-          # else
-          #   'UNKNOWN ABOUT'
-          end
-        end # END OF HEADER-MAIN
+          else
+            'UNKNOWN HEADLINE(S)'
+          end # END OF CASE
+        end  # END OF HEADER-HEADLINE(S)
 
-        # HEADER CONTACT
-        div class: 'header-content col-right', id: 'header-contact' do
-          # CONTACT LIST
-          ul class: '', id: 'contact-items' do
+        # ABOUT
+        if !data['about'].nil?
+          p class: 'header-item', id: 'header-about' do
+            data['about']
+          end
+        # else
+        #   'UNKNOWN ABOUT'
+        end  # END OF HEADER-ABOUT
+
+        # CONTACT
+        if !data['contact'].nil?
+          ul class: 'header-item', id: 'header-contact' do
             data['contact'].each do |item|
               li class: 'contact-item', id: "contact-#{item['type']}" do
                 # CONTACT TEXT
-                span class: 'contact-text' do
+                span class: 'contact-item-text' do
                   if item['url'].nil?
                     item['text']
                   else
-                    a item['text'], href: item['url']
+                    a class: 'link', href: item['url'] do
+                      item['text']
+                    end
                   end
                 end
                 # CONTACT ICON
-                span class: 'contact-icon' do
+                span class: 'contact-item-icon' do
                   item['icon']
                 end
               end
             end
           end
-
+        else
+          'NO CONTACT INFORMATION'
         end  # END OF HEADER-CONTACT
+
       end  # END OF HEADER
 
       # RESUME CONTENT
@@ -142,12 +142,16 @@ def create_resume_full( resume )
 
                 # LINKS
                 if !port['links'].nil?
-                  ul class: 'port-links' do
+                  ul class: 'port-links proj-links' do
                     port['links'].each do |link|
                       li class: 'port-link' do
-                        span { "#{link['anchor'].upcase}: " }
-                        span do
-                          a link['url'], href: link['url']
+                        span class: 'port-link-text' do
+                          "#{link['anchor'].upcase}:"
+                        end
+                        span class: 'port-link-link' do
+                          a class: 'link', href: link['url'] do
+                            link['url']
+                          end
                         end
                       end
                     end
@@ -226,10 +230,18 @@ def create_resume_full( resume )
 
                 # LINK(S)
                 if !port['links'].nil?
-                  ul class: 'port-links' do
+                  ul class: 'port-links pub-links' do
                     port['links'].each do |link|
                       li class: 'port-link' do
-                        a link['anchor'], href: link['url']
+                        span class: 'port-link-text' do
+                          " "
+                        end
+
+                        span class: 'port-link-link' do
+                          a class: 'link', href: link['url'] do
+                            link['anchor']
+                          end
+                        end
                       end
                     end
                   end 
@@ -561,7 +573,7 @@ def create_resume_full( resume )
                   end
                 end
               else
-                'NO MATCHING SKILL/INTREST TYPE'
+                'NO MATCHING SKILL/INTEREST TYPE'
               end  # END OF SKILLS_INTEREST CASE
             end  # END OF SKILLS_INTERESTS LOOP
           end  # END OF SKILLS_INTEREST-CONTENT

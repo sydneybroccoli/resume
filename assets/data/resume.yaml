@@ -1,7 +1,7 @@
 name: "Sydney Barovsky"
-headline: 
-  - "Bioelectrical Engineer"
-  - "Full Stack Software Engineer"
+headline:
+- "Bioelectrical Engineer"
+- "Full Stack Software Engineer"
 about: "Full Stack Software Engineer with 3 year of experience coding ranging from web development or data processing/analysis.  Educated and experienced in the fields Biomedical Engineering and medical device research."
 contact:
 - type: "location"
@@ -41,10 +41,10 @@ portfolio:
   - "Android"
   - "iOS"
   duties:
-  - "Managed communication across multiple teams while continuing development through pilot testing."
-  - "Collaborated on the development of a mobile application by refactoring of the PWA prototype."
-  - "Streamlined permission requests for iOS and Android devices."
-  - "Extended user functionality by creating functionality to share/download QR code images."
+  - "Coordinated continued development and pilot testing though remote communications (Slack; Zoom) across multiple teams."
+  - "Recreated a web-based prototype application as a fully mobile application (iOS; Android)."
+  - "Automated permission requests and re-requests across iOS and Android devices through a modular, centralized method."
+  - "Implemented additional functionality to allow users to share and/or download QR code images."
   links: null
 
 - type: PROJECT
@@ -69,10 +69,10 @@ portfolio:
   - "Trello"
   - "Figma"
   duties:
-  - "Collaborated (4-person team) from pitch to working prototype in 2 weeks."
-  - "Designed the full application using Figma."
-  - "Coded an extensive seed file based on data from the Queensland Ambulance Service protocols."
-  - "Developed a variety of functionality related to the back-end of the paramedic-side of the application: basic dashboard design/functionality; drug 'drag and drop' and 'dose' functionality; algorithms for dosage recording and timing (based on entered patient info); etc."
+  - "Conceptualized and developed a web-based application from pitch to prototype in two (2) weeks."
+  - "Generated a 1200+ line seed file based on data scraped from existing Queensland Ambulance Service drug protocols."
+  - "Spearheaded the paramedic-side of the application: basic dashboard design and functionality; drug 'drag and drop' functionality and 'dosing' functionality; algorithms devised to advise paramedics on proper drug dosing and timing given certain patient information."
+  - "Modified the paramedic-side of the application to accomodate for mobile-first (primarily tablet) use."
   links:
   - anchor: "DEMO"
     url: "https://right-dose.herokuapp.com/"
@@ -101,12 +101,12 @@ portfolio:
   - "Trello"
   - "Figma"
   duties:
-  - "Collaborated (4-person team) from idea to prototype in 1 week."
-  - "Coded a seed file based on data scraped from various aircraft record pages."
+  - "Troubleshot various bugs."
+  - "Inventoried a database of basic aircraft data scraped from various aircraft records pages; utilized the database in construction of a seed file."
   links:
-  - anchor: "Demo"
+  - anchor: "DEMO"
     url: "https://the-milehigh-club.herokuapp.com/"
-  - anchor: "GitHub"
+  - anchor: "REPO"
     url: "https://github.com/sydneybroccoli/the-milehigh-club"
 
 - type: PROJECT
@@ -122,12 +122,14 @@ portfolio:
   - "Simple Form"
   - "Faker"
   - "ERB"
+  - "API"
   duties:
+  - "Implemented an API (The Cocktail DB) which returned a random cocktail; utilized the returned data in the construction of a seed file."
   - "Designed and developed a basic MVC application with CRUD capabilites."
   links:
-  - anchor: "Demo"
+  - anchor: "DEMO"
     url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"
-  - anchor: "GitHub"
+  - anchor: "REPO"
     url: "https://github.com/sydneybroccoli/rails-mister-cocktail"
 
 - type: PROJECT
@@ -138,7 +140,7 @@ portfolio:
   - "Raspberry Pi"
   duties:
   - "Research existing solutions; evaluated feasibility of commercial programs to be used at low-cost in rural areas."
-  - "Integrated Raspberry Pi hardware as a server for the software while also providing honeypot access to users."
+  - "Programmed a Raspberry Pi to serve the software and provide users honeypot access to the program."
   links: null   
 
 - type: PUBLICATION
@@ -153,8 +155,8 @@ portfolio:
     - "Medical Devices"
     - "Prosthetic Devices"
   duties:
-    - "Collected, processed and analyzed all data collected during preliminary testing."
-    - "Compiled and outlined results; published results in peer-reviewed periodical:"
+    - "Collected, processed and analyzed all data collected during preliminary testing; compiled and outlined results."
+    - "Co-authored results in peer-reviewed periodical:"
   citation:
     title: "Assesting kinematic variability during performance of Jebsen-Taylor Hand Function Test"
     publisher: "Journal of Hand Therapy"
@@ -174,16 +176,19 @@ experience:
     start: "04/2020"
     end: "CURRENT"
   skills:
+  - "Ruby"
   - "Ruby on Rails"
   - "PostgreSQL"
   - "React"
   - "Redux"
   - "Firebase"
   - "Expo"
+  - "Heroku"
+  - "Remote Communication"
   duties:
-  - "Supported development of multiple projects where duties included: feature development, testing and optimization, code reviews, etc."
-  - "Managed remote team/client communications in discussion of all aspects related to the project(s)."
-  - "Built custom web-based applications and mobile-based applications (iOS and Android)."
+  - "Strategized with clients/team members remotely (Slack; Zoom)."
+  - "Curated custom web-based applications and mobile-based applications (iOS and Android)."
+  - "Aided development of various projects through: design and integration of new features; refactoring of outdated features; testing to determine existence of bugs; troubleshot methods of debugging; team code reviews; and deployment of beta applications to production."
 
 - type: PROFESSIONAL
   title: "Bartender / Brewer Assistant"
@@ -199,10 +204,10 @@ experience:
   - "Brewing Equipment"
   - "Food Safety"
   duties:
-  - "Responsible for opening, regular operation, and closing of the brewery during normal business hours."
-  - "Educated customers about various brews ranging from English-style cask ales to PNW-style IPAs."
   - "Enforcement of COVID-19 safety standards for indoor/outdoor dining establishments."
-  - "Managed regular cleaning of tap lines and brewing equpiment within the brewery and other local establishments."
+  - "Conducted regular cleaning of tap lines and brewing equipment in-house;"
+  - "Responsible for unsupervised operation (opening; operation/sales; closing) of the brewery during regular business hours."
+  - "Informed customers about available brews ranging from traditional English-style cask ales to PNW-style IPAs."
 
 - type: PROFESSIONAL
   title: "Bartender"
@@ -216,8 +221,8 @@ experience:
   - "Customer Service"
   - "Food Safety"
   duties:
-  - "Leveraged interpersonal skills in order to provide guests with quality service."
-  - "Assisted with operation of weekly pool leagues."
+  - "Oversaw weekly pool leagues."
+  - "Utilized interpersonal skills in order to provide all guests with quality service."
 
 - type: PROFESSIONAL
   title: "Travel/Backpacking"
@@ -234,40 +239,25 @@ experience:
   duties:
   - "Cultivated language and communication skills through verbal and non-verbal communication."
   - "Acculturated when faced with new and different cultural and language barriers."
-  - "Modified travel plans to accomodate changing circumstances or new information."
+  - "Embraced and adapted to changing circumstances encountered while travelling."
 
 - type: PROFESSIONAL
-  title: "Banquet Server"
-  employment_type: PART_TIME
-  company: "iPic Theaters: Gold Glass Cinemas"
-  location: "Glendale, WI"
-  date:
-    start: "11/2017"
-    end: "02/2018"
-  skills: 
-  - "Customer Service"
-  - "Point of Sale (POS)"
-  - "Food Safety"
-  duties:
-  - "Maintained a clean and organized banquet area."
-  - "Conveyed information regarding available food/drink options to guests."
-
-- type: PROFESSIONAL
-  title: "Lead Guest Services"
+  title: "Lead Guest Services / Banquet Server"
   employment_type: PART_TIME
   company: "iPic Theaters: Gold Glass Cinemas"
   location: "Glendale, WI"
   date:
     start: "09/2017"
     end: "02/2018"
-  skills:
+  skills: 
   - "Customer Service"
   - "Point of Sale (POS)"
   - "Management"
+  - "Food Safety"
   duties:
-  - "Trained all (5) new Guest Services employees hired."
-  - "Resolved any customer service complaints; escalated to a superior as needed."
-  - "Managed the Guest Services counter; assisting 500+ customers daily, in-house and/or over-the-phone."
+  - "Trained all (5) new Guest Services employees and supervised throughout probationary periods."
+  - "Resolved customer grievances, escalating to superiors when required."
+  - "Ensured guest satisfaction during banquet events: conveyed available food/drink options; delivered any guest-requested items; maintained the cleanliness and organization of the banquet area."
 
 - type: PROFESSIONAL
   title: "Research Engineer"
@@ -292,11 +282,11 @@ experience:
   - "Statistics"
   - "Healthcare"
   duties:
-  - "Developed 2 testing protocols using novel methods and modification of existing testing methods/systems."
-  - "Utilized motion capture and electroencephalography (EEG) to measure kinematic movement and brain function, respectively."
-  - "Streamlined documentation and data collection protocols through creation of a physical filing system with corresponsing electronic data libraries."
-  - "Conducted preliminary testing on 10+ subjects, from system calibrations to data collection, processing and analysis."
-  - "Demonstrated our findings through lab tours, presentations and publications."
+  - "Conceptualized two (2) testing protocols by means of conceiving novel methods and the modification of exisiting methods/systems."
+  - "Integrated motion capture (VICON) and electroencephalography (EEG) technologies into testing as to quantitatively measure kinematic movement and cognitive function, respectively."
+  - "Streamlined data collection by consolidated and organizing documentation protocols by introduction of reciprocal paper and electronic data libraries."
+  - "Coordinated preliminary testing through: system calibration; administration of testing protcols; and data collection, processing and analysis."
+  - "Manifested findings through lab tours,  presentations, and peer-reviewed publications."
 
 - type: PROFESSIONAL
   title: "Research Assistant"
@@ -311,8 +301,7 @@ experience:
   - "Data Processing"
   - "Biomechanics"
   duties:
-  - "Utilized Autoscoper software to track/extract data from x-ray fluoroscopy images."
-  - "Processed data from 25+ trials; each trial containing 100's of images."
+  - "Employed Autoscoper software to quantify x-ray fluoroscopy images; critiqued 25,000+ images across multiple subjects and trials."
 
 - type: VOLUNTEER
   title: "Volunteer"
@@ -324,9 +313,7 @@ experience:
   cause: "Environment"
   about: "Mountains to Sound Greenway Trust is a group whose goal is to lead and inspire action to conserve and enhance the local landscapes of Seattle, from the Cascade Mountains to Central Washington, helping to find the long-term balance between people and nature."
   duties:
-  - "Transported plants from pots to the nursery."
-  - "Cleaned wooded areas and planted fresh shrubbery."
-
+  - "Rehabilitated local greenways by means of nursery work and trail maintainance."
 - type: VOLUNTEER
   title: "Volunteer"
   organization: "Seattle's Union Gospel Mission"
@@ -337,7 +324,7 @@ experience:
   cause: "Poverty Alleviation"
   about: "The Seattle Union Gospel Mission is a non-profit group whose goal is to serve, rescue and transform the lives of the hurting and homeless population in Seattle by providing emergency care and long-term recovery services."
   duties:
-  - "Distributed food and various goods (blankets; clothes) to homeless populations around the city of Seattle."
+  - "Distributed food and other essential goods (blankets; clothes) to homeless populations around the city of Seattle."
 
 - type: VOLUNTEER
   title: "Volunteer"
@@ -349,10 +336,11 @@ experience:
   cause: "Health/Disability"
   about: "Outdoors For All is a group that aims to improve the quality of life for children and adults with disabilities by providing adaptive and therapeutic outdoor recreation."
   duties:
-  - "Accomodated rock climbers by providing safe belay or on-wall assistance."
+  - "Mentored participants as they participated in outdoor rock climbing."
+  - "Provided various accommodations: spotting for boulderers; belay for top-rope climbers; and/or on-wall advice/assistance."
 
 - type: VOLUNTEER
-  title: "Volunteer"
+  title: "Event Volunteer"
   organization: "Special Olympics Washington"
   location: "Tacoma, WA"
   date:
@@ -361,8 +349,8 @@ experience:
   cause: "Health/Disability"
   about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with physical and intellectual disabilities."
   duties:
-  - "Maintained records for events (Shot Put; Long Jump)."
-  - "Marshalled athletes from check-in to events and/or award delivery."
+  - "Encouraged and supported athletes with active plaudits from the sidelines."
+  - "Facilitated operation of track and field events: documented event results; marshalled athletes; and delivered awards."
 
 - type: VOLUNTEER
   title: "Volunteer"

@@ -37,12 +37,25 @@
     background-color: $color_main;
   }
 }
+.project .port-links {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0 3px;
+
+  li.port-link { display: contents; }
+  span.port-link-text { 
+    // STYLE
+    font-family: $font-family_header;
+    // FORMAT
+    justify-self: end; align-self: center; 
+  }
+  span.port-link-link { justify-self: start; align-self: center; }
+}
 
 // PUBLICATIONS
 .port-citation {
   // STYLE
   // FORMAT
-
   .citation-authors {}
   .citation-date {}
   .citation-title { font-weight: bold; }
@@ -50,19 +63,22 @@
 
 }
 
-.publication {
-  a {
-    // STYLE
-    color: black;
-    text-decoration: underline;
-    font-style: italic;
-    // FORMAT
-    padding-left: 20px;
-  }
-  a:hover {
-    padding: 2px; margin-left: 20px;
-    color: white;
-    background-color: $color_main;
-  }
-}
+.publication .port-links {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  grid-gap: 0 3px;
 
+  li.port-link { display: contents; }
+  span.port-link-text { 
+    // STYLE
+    font-family: $font-family_header;
+    // FORMAT
+    justify-self: end; align-self: center; 
+  }
+  span.port-link-link { 
+    // STYLE
+    font-style: italic;
+    text-decoration: underline;
+    // FORMAT
+    justify-self: start; align-self: center; }
+}

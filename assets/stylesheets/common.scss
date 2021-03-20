@@ -19,6 +19,7 @@ header { display: none; }
 @media (min-width: 1200px) { .container { width: 1170px; } }
 
 .item {
+  page-break-inside: avoid;
   padding: 0 15px;
   margin: 0 auto; margin-top: 6px; margin-bottom: 6px;
 }
@@ -63,17 +64,22 @@ ul.bubble-list {
   }
 }
 
+// LINKS
+a.link {
+  // STYLE
+  color: black;
+  text-decoration: none;
+  // FORMAT
+  padding: 2px;
 
-// // ROW STYLING
-// span.row {
-//   display: flex;
-//   flex-direction: row;
-//   gap: 0.5rem;
-// }
-// span.row-spaced {
-//   justify-content: space-between;
-// }
-// span.row-start {
+  &:hover {
+    // STYLE
+    color: white;
+    background-color: $color_main;
+    // FORMAT
+    padding: 2px;
+  }
+}
 
-//   justify-content: flex-start;
-// }
+
+

@@ -13,6 +13,7 @@
     // STYLE
     // FORMAT
     display: contents; // MAKES THE DIV "INVISIBLE"
+    page-break-inside: avoid;
   }  
 
   .skin-row-title { 

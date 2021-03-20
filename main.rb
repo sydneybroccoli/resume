@@ -44,5 +44,5 @@ resume_serv.puts create_resume_serv(mab_serv).to_s
 resume_serv.close()
 
 # SET INDEX
-FileUtils.cp('./assets/outputs/resume_tech.html',
+FileUtils.cp('./assets/outputs/resume_full.html',
               './index.html')

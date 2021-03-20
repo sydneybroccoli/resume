@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+// SHARED
+.skin-content {
+  // STYLE
+  // FORMAT
+  display: grid;
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-template-columns: auto 1fr;
+  grid-gap: 6px 5px;
+
+  .skin-row { 
+    // STYLE
+    // FORMAT
+    display: contents; // MAKES THE DIV "INVISIBLE"
+  }  
+
+  .skin-row-title { 
+    // STYLE
+    font-weight: bold;
+    // FORMAT
+    margin: 0;
+    justify-self: end; align-self: center;
+  }
+  .skin-row-items {
+    // STYLE
+    // FORMAT
+    margin: 0;
+    justify-self: start;  align-self: center;
+  }
+}

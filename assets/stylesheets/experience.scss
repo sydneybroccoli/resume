@@ -1,7 +1,55 @@
-// PROFESSIONALS
-.experience {
+// SHARED
+.exp-item {
   // STYLE
   // FORMAT
+}
+.exp-title {
+  // STYLE
+  font-weight: bold;
+  text-transform: uppercase;
+  // FORMAT
+  margin: 0;
+}
+.exp-company, .exp-organization {
+  // STYLE
+  text-transform: uppercase;
+  // FORMAT
+  margin: 0; margin-right: $spacer;
+}
+.exp-location {
+  // STYLE
+  font-variant: small-caps;
+  font-style: italic;
+  // FORMAT
+  margin: 0;
+}
+.exp-date_range {
+  // STYLE
+  font-style: italic;
+  // FORMAT
+  margin: 0;
+}
+.exp-about {
+  // STYLE
+  font-style: italic;
+  // FORMAT
+  margin: 0;
+}
+.exp-skills {
+  // STYLE
+  // FORMAT
+  margin: 0;
+}
+.exp-duties {
+  // STYLE
+  // FORMAT
+  margin: 0;
+}
+
+
+
+// PROFESSIONAL EXP
+.professional {
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto auto auto auto;
@@ -12,136 +60,44 @@
     "skills skills skills"
     "duties duties duties";
 
-    .exp-title { 
-      // STYLE
-      font-weight: bold;
-      text-transform: uppercase;
-      // FORMAT
-      margin: 0;
-      grid-area: title;
-    }
-    .exp-date_range {
-      // SKILL
-      font-style: italic;
-      // FORMAT 
-      margin: 0;
-      grid-area: date; 
-    }
-    .exp-company {
-      // SKILL
-      text-transform: uppercase;
-      // FORMAT 
-      margin: 0; margin-right: $spacer;
-      grid-area: company; 
-    }
-    .exp-location {
-      // SKILL
-      font-variant: small-caps;
-      font-style: italic;
-      // FORMAT 
-      margin: 0;
-      grid-area: location; 
-    }
-    .exp-skills {
-      // SKILL
-      // FORMAT 
-      grid-area: skills; 
-    }
-    .exp-duties {
-      // SKILL
-      // FORMAT 
-      grid-area: duties; 
-    }
+    .exp-title { grid-area: title; }
+    .exp-date_range { grid-area: date; }
+    .exp-company { grid-area: company; }
+    .exp-location { grid-area: location; }
+    .exp-skills { grid-area: skills; }
+    .exp-duties { grid-area: duties; }
 }
 
-// VOLUNTEERS
+// VOLUNTEER EXP
 .volunteer {
-  // SKILL
-  // FORMAT
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto auto auto;
   grid-template-areas:
-    "title title year"
+    "title title date"
     "organization location location"
     "about about about"
     "duties duties duties";
 
-    .vol-title {
-      // STYLE
-      text-transform: uppercase;
-      font-weight: bold;
-      // FORMAT
-      margin: 0; 
-      grid-area: title; 
-    }
-    .vol-date_range {
-      // STYLE
-      font-style: italic;
-      // FORMAT
-      margin: 0; 
-      grid-area: year; 
-    }
-    .vol-organization {
-      // STYLE
-      text-transform: uppercase;
-      // FORMAT 
-      margin: 0; margin-right: $spacer;
-      grid-area: organization; 
-    }
-    .vol-location {
-      // STYLE
-      font-variant: small-caps;
-      font-style: italic;
-      // FORMAT 
-      margin: 0;
-      grid-area: location; 
-    }
-    .vol-about {
-      // STYLE
-      font-style: italic;
-      // FORMAT 
-      margin: 0;
-      grid-area: about; 
-    }
-    .vol-duties {
-      // STYLE
-      // FORMAT 
-      grid-area: duties; 
-    }
+    .exp-title { grid-area: title; }
+    .exp-date_range { grid-area: date; }
+    .exp-organization { grid-area: organization; }
+    .exp-location { grid-area: location; }
+    .exp-about { grid-area: about; }
+    .exp-duties { grid-area: duties; }
 }
 
-// ORGANIZATIONS
+// ORGANIZATION EXP
 .organization {
-  // STYLE
-  // FORMAT
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto;
   grid-template-areas:
-    "title date"
-    "organization organization";
+    "title title date"
+    "organization location location";
 
-    .org-title {
-      // STYLE
-      text-transform: uppercase;
-      font-weight: bold;
-      // FORMAT
-      margin: 0;
-      grid-area: title; 
-    }
-    .org-date_range {
-      // STYLE
-      font-style: italic;
-      // FORMAT 
-      margin: 0;
-      grid-area: date; 
-    }
-    .org-organization {
-      // STYLE
-      text-transform: uppercase;
-      // FORMAT 
-      margin: 0;
-      grid-area: organization; 
-    }
+    .exp-title { grid-area: title; }
+    .exp-date_range { grid-area: date; }
+    .exp-location { grid-area: location; }
+    .exp-organization { grid-area: organization; }
 }

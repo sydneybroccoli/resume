@@ -1,27 +1,27 @@
 @import './variables.scss';
 
 // PROJECTS
-.proj-item {
+.port-item {
   // STYLE
   // FORMAT
   margin: 10px 0;
 }
-.proj-title {
+.port-title {
   // STYLE
   font-weight: bold;
   text-transform: uppercase;
   // FORMAT
   margin: 0;
 }
-.proj-about {
+.port-about {
   // STYLE
   font-style: italic;
   // FORMAT
   margin: 0;
 }
-.proj-skills {}
-.proj-duties {}
-.proj-links {
+.port-skills {}
+.port-duties {}
+.port-links {
   // STYLE
   list-style-type: none; padding-left: 0;
   // FORMAT
@@ -39,14 +39,14 @@
 }
 
 // PUBLICATIONS
-.pub-citation {
+.port-citation {
   // STYLE
   // FORMAT
 
-  .pub-authors {}
-  .pub-date {}
-  .pub-title { font-weight: bold; }
-  .pub-publisher { font-style: italic; }
+  .citation-authors {}
+  .citation-date {}
+  .citation-title { font-weight: bold; }
+  .citation-publisher { font-style: italic; }
 
 }
 

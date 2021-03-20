@@ -36,7 +36,8 @@ header {
 .item {
   padding: 0 15px;
   margin: 0 auto;
-  margin-bottom: 10px; }
+  margin-top: 6px;
+  margin-bottom: 6px; }
 
 h1.section-header {
   width: auto;
@@ -71,121 +72,114 @@ ul.bubble-list {
   width: 100%; }
 
 .edu-item {
-  margin: 5px;
-  padding: 5px;
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto auto;
   grid-template-areas: "degree degree year" "school location ." "content content content"; }
+  .edu-item .edu-degree {
+    font-weight: bold;
+    grid-area: degree;
+    margin: 0;
+    padding: 0; }
+  .edu-item .edu-grad_date {
+    font-style: italic;
+    grid-area: year;
+    margin: 0;
+    padding: 0; }
+  .edu-item .edu-school {
+    text-transform: uppercase;
+    grid-area: school;
+    margin: 0;
+    padding: 0;
+    margin-right: 5px; }
+  .edu-item .edu-location {
+    font-style: italic;
+    font-variant: small-caps;
+    grid-area: location;
+    margin: 0;
+    padding: 0; }
+  .edu-item .edu-content {
+    grid-area: content;
+    margin: 0;
+    padding: 0; }
 
-.edu-degree {
+.exp-title {
   font-weight: bold;
-  grid-area: degree;
-  margin: 0;
-  padding: 0; }
-
-.edu-grad_date {
-  font-style: italic;
-  grid-area: year;
-  margin: 0;
-  padding: 0; }
-
-.edu-school {
   text-transform: uppercase;
-  grid-area: school;
+  margin: 0; }
+
+.exp-company, .exp-organization {
+  text-transform: uppercase;
   margin: 0;
-  padding: 0;
   margin-right: 5px; }
 
-.edu-location {
-  font-style: italic;
+.exp-location {
   font-variant: small-caps;
-  grid-area: location;
-  margin: 0;
-  padding: 0; }
+  font-style: italic;
+  margin: 0; }
 
-.edu-content {
-  grid-area: content;
-  margin: 0;
-  padding: 0; }
+.exp-date_range {
+  font-style: italic;
+  margin: 0; }
 
-.experience {
+.exp-about {
+  font-style: italic;
+  margin: 0; }
+
+.exp-skills {
+  margin: 0; }
+
+.exp-duties {
+  margin: 0; }
+
+.professional {
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto auto auto auto;
   grid-template-areas: "title title date" "company location location" "about about about" "skills skills skills" "duties duties duties"; }
-  .experience .exp-title {
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0;
+  .professional .exp-title {
     grid-area: title; }
-  .experience .exp-date_range {
-    font-style: italic;
-    margin: 0;
+  .professional .exp-date_range {
     grid-area: date; }
-  .experience .exp-company {
-    text-transform: uppercase;
-    margin: 0;
-    margin-right: 5px;
+  .professional .exp-company {
     grid-area: company; }
-  .experience .exp-location {
-    font-variant: small-caps;
-    font-style: italic;
-    margin: 0;
+  .professional .exp-location {
     grid-area: location; }
-  .experience .exp-skills {
+  .professional .exp-skills {
     grid-area: skills; }
-  .experience .exp-duties {
+  .professional .exp-duties {
     grid-area: duties; }
 
 .volunteer {
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: "title title year" "organization location location" "about about about" "duties duties duties"; }
-  .volunteer .vol-title {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 0;
+  grid-template-areas: "title title date" "organization location location" "about about about" "duties duties duties"; }
+  .volunteer .exp-title {
     grid-area: title; }
-  .volunteer .vol-date_range {
-    font-style: italic;
-    margin: 0;
-    grid-area: year; }
-  .volunteer .vol-organization {
-    text-transform: uppercase;
-    margin: 0;
-    margin-right: 5px;
+  .volunteer .exp-date_range {
+    grid-area: date; }
+  .volunteer .exp-organization {
     grid-area: organization; }
-  .volunteer .vol-location {
-    font-variant: small-caps;
-    font-style: italic;
-    margin: 0;
+  .volunteer .exp-location {
     grid-area: location; }
-  .volunteer .vol-about {
-    font-style: italic;
-    margin: 0;
+  .volunteer .exp-about {
     grid-area: about; }
-  .volunteer .vol-duties {
+  .volunteer .exp-duties {
     grid-area: duties; }
 
 .organization {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto;
-  grid-template-areas: "title date" "organization organization"; }
-  .organization .org-title {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 0;
+  grid-template-areas: "title title date" "organization location location"; }
+  .organization .exp-title {
     grid-area: title; }
-  .organization .org-date_range {
-    font-style: italic;
-    margin: 0;
+  .organization .exp-date_range {
     grid-area: date; }
-  .organization .org-organization {
-    text-transform: uppercase;
-    margin: 0;
+  .organization .exp-location {
+    grid-area: location; }
+  .organization .exp-organization {
     grid-area: organization; }
 
 #resume-header {
@@ -270,33 +264,33 @@ ul#contact-items {
   @page {
     margin: 0.25in;
     size: A4; } }
-.proj-item {
+.port-item {
   margin: 10px 0; }
 
-.proj-title {
+.port-title {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0; }
 
-.proj-about {
+.port-about {
   font-style: italic;
   margin: 0; }
 
-.proj-links {
+.port-links {
   list-style-type: none;
   padding-left: 0;
   margin: 0; }
-  .proj-links a {
+  .port-links a {
     color: black;
     text-decoration: underline; }
-  .proj-links a:hover {
+  .port-links a:hover {
     padding: 2px;
     color: white;
     background-color: #008B8B; }
 
-.pub-citation .pub-title {
+.port-citation .citation-title {
   font-weight: bold; }
-.pub-citation .pub-publisher {
+.port-citation .citation-publisher {
   font-style: italic; }
 
 .publication a {
@@ -310,15 +304,21 @@ ul#contact-items {
   color: white;
   background-color: #008B8B; }
 
-.si-row {
-  display: flex;
-  align-items: center;
-  margin: 0; }
-  .si-row p.row-title {
-    min-width: 100px;
-    max-width: 100px;
+.skin-content {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-template-columns: auto 1fr;
+  grid-gap: 6px 5px; }
+  .skin-content .skin-row {
+    display: contents; }
+  .skin-content .skin-row-title {
     font-weight: bold;
-    text-align: right;
-    margin: 0 5px 0 0; }
+    margin: 0;
+    justify-self: end;
+    align-self: center; }
+  .skin-content .skin-row-items {
+    margin: 0;
+    justify-self: start;
+    align-self: center; }
 
 /*# sourceMappingURL=style.css.map */

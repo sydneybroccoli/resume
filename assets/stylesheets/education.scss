@@ -1,11 +1,10 @@
 @import './variables.scss';
-#education {
-  width: 100%;
-}
+
+// SHARED
+#education { width: 100%; }
 .edu-item {
   // STYLE
   // FORMAT
-  margin: 5px; padding: 5px;
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto auto;
@@ -13,41 +12,41 @@
     "degree degree year"
     "school location ."
     "content content content";
-}
 
-.edu-degree {
-  // STYLE
-  font-weight: bold;
-  // FORMAT 
-  grid-area: degree;
-  margin: 0; padding: 0; 
-}
-.edu-grad_date {
-  // STYLE
-  font-style: italic;
-  // FORMAT 
-  grid-area: year;
-  margin: 0; padding: 0;  
-}
-.edu-school {
-  // STYLE
-  text-transform: uppercase;
-  // FORMAT 
-  grid-area: school;
-  margin: 0; padding: 0;
-  margin-right: $spacer;  
-}
-.edu-location {
-  // STYLE
-  font-style: italic;
-  font-variant: small-caps;
-  // FORMAT 
-  grid-area: location;
-  margin: 0; padding: 0;  
-}
-.edu-content {
-  // STYLE
-  // FORMAT 
-  grid-area: content;
-  margin: 0; padding: 0;
+  .edu-degree {
+    // STYLE
+    font-weight: bold;
+    // FORMAT 
+    grid-area: degree;
+    margin: 0; padding: 0; 
+  }
+  .edu-grad_date {
+    // STYLE
+    font-style: italic;
+    // FORMAT 
+    grid-area: year;
+    margin: 0; padding: 0;  
+  }
+  .edu-school {
+    // STYLE
+    text-transform: uppercase;
+    // FORMAT 
+    grid-area: school;
+    margin: 0; padding: 0;
+    margin-right: $spacer;  
+  }
+  .edu-location {
+    // STYLE
+    font-style: italic;
+    font-variant: small-caps;
+    // FORMAT 
+    grid-area: location;
+    margin: 0; padding: 0;  
+  }
+  .edu-content {
+    // STYLE
+    // FORMAT 
+    grid-area: content;
+    margin: 0; padding: 0;
+  }
 }

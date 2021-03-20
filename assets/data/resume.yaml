@@ -29,340 +29,376 @@ contact:
   text: "@gh/sydneybroccoli"
   url: "https://github.com/sydneybroccoli"
 
-projects:
-  technical:  
-  - title: "Scrapit App"
-    about: "Making zero waste, zero-hassle.  Scrapit partners with local municipalities to gamify curbside composting and lets users earn rewards they actually want.\nCurrently in pilot testing at MIT."
-    skills:
-    - "Firebase"
-    - "Expo"
-    - "React"
-    - "Redux"
-    - "Android"
-    - "iOS"
-    duties:
-    - "Managed communication across multiple teams while continuing development through pilot testing."
-    - "Collaborated on the development of a mobile application by refactoring of the PWA prototype."
-    - "Streamlined permission requests for iOS and Android devices."
-    - "Extended user functionality by creating functionality to share/download QR code images."
-    links: null
-  - title: "Right Dose"
-    about: "Saving patients; helping paramedics. Provides a flexible, robust and customisable framework for any pre-hospital service by which active intervention and dosage information is readily updated and deployed to employees for easy reference while on-the-job."
-    skills:
-    - "Ruby on Rails"
-    - "Bootstrap"
-    - "Algolia"
-    - "Date-FNS"
-    - "Sortable"
-    - "Sweet Alert"
-    - "Cloudinary"
-    - "Faker"
-    - "Pundit"
-    - "Devise"
-    - "SWAL Forms"
-    - "SASS"
-    - "ERB"
-    - "Webpacker"
-    - "Capybara"
-    - "Trello"
-    - "Figma"
-    duties:
-    - "Collaborated (4-person team) from pitch to working prototype in 2 weeks."
-    - "Designed the full application using Figma."
-    - "Coded an extensive seed file based on data from the Queensland Ambulance Service protocols."
-    - "Developed a variety of functionality related to the back-end of the paramedic-side of the application: basic dashboard design/functionality; drug 'drag and drop' and 'dose' functionality; algorithms for dosage recording and timing (based on entered patient info); etc."
-    links:
-    - anchor: "Demo"
-      url: "https://right-dose.herokuapp.com/"
-    - anchor: "GitHub"
-      url: "https://github.com/josephdriver/right-dose"
-  - title: "The Mile High Club"
-    about: "Mock, AirBNB-style marketplace for aircraft rentals."
-    skills:
-    - "Ruby on Rails"
-    - "Bootstrap"
-    - "Flatpickr"
-    - "jQuery"
-    - "Mapbox"
-    - "Cloudinary"
-    - "Faker"
-    - "Pundit"
-    - "Devise"
-    - "Geocoder"
-    - "SASS"
-    - "ERB"
-    - "Simple Form"
-    - "Webpacker"
-    - "PG_Search"
-    - "Trello"
-    - "Figma"
-    duties:
-    - "Collaborated (4-person team) from idea to prototype in 1 week."
-    - "Coded a seed file based on data scraped from various aircraft record pages."
-    links:
-    - anchor: "Demo"
-      url: "https://the-milehigh-club.herokuapp.com/"
-    - anchor: "GitHub"
-      url: "https://github.com/sydneybroccoli/the-milehigh-club"
-  - title: "Mister Cocktail/Soup of the Day"
-    about: "Mock, online recipe cocktail book."
-    skills:
-    - "Ruby on Rails"
-    - "SASS"
-    - "Bootstrap"
-    - "Webpacker"
-    - "RSpec"
-    - "PG_Search"
-    - "Simple Form"
-    - "Faker"
-    - "ERB"
-    duties:
-    - "Designed and developed a basic MVC application with CRUD capabilites."
-    links:
-    - anchor: "Demo"
-      url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"
-    - anchor: "GitHub"
-      url: "https://github.com/sydneybroccoli/rails-mister-cocktail"
-  - title: "Low-Cost Patient and Healthcare Record System"
-    about: "Developing a joint hardware-software solution for deploying Electronic Healthcare Record-keeping systems for public health groups in developing nations around the world."
-    skills:
+portfolio:
+- type: PROJECT
+  title: "Scrapit App"
+  about: "Making zero waste, zero-hassle.  Scrapit partners with local municipalities to gamify curbside composting and lets users earn rewards they actually want.\nCurrently in pilot testing at MIT."
+  skills:
+  - "Firebase"
+  - "Expo"
+  - "React"
+  - "Redux"
+  - "Android"
+  - "iOS"
+  duties:
+  - "Managed communication across multiple teams while continuing development through pilot testing."
+  - "Collaborated on the development of a mobile application by refactoring of the PWA prototype."
+  - "Streamlined permission requests for iOS and Android devices."
+  - "Extended user functionality by creating functionality to share/download QR code images."
+  links: null
+
+- type: PROJECT
+  title: "Right Dose"
+  about: "Saving patients; helping paramedics. Provides a flexible, robust and customisable framework for any pre-hospital service by which active intervention and dosage information is readily updated and deployed to employees for easy reference while on-the-job."
+  skills:
+  - "Ruby on Rails"
+  - "Bootstrap"
+  - "Algolia"
+  - "Date-FNS"
+  - "Sortable"
+  - "Sweet Alert"
+  - "Cloudinary"
+  - "Faker"
+  - "Pundit"
+  - "Devise"
+  - "SWAL Forms"
+  - "SASS"
+  - "ERB"
+  - "Webpacker"
+  - "Capybara"
+  - "Trello"
+  - "Figma"
+  duties:
+  - "Collaborated (4-person team) from pitch to working prototype in 2 weeks."
+  - "Designed the full application using Figma."
+  - "Coded an extensive seed file based on data from the Queensland Ambulance Service protocols."
+  - "Developed a variety of functionality related to the back-end of the paramedic-side of the application: basic dashboard design/functionality; drug 'drag and drop' and 'dose' functionality; algorithms for dosage recording and timing (based on entered patient info); etc."
+  links:
+  - anchor: "DEMO"
+    url: "https://right-dose.herokuapp.com/"
+  - anchor: "REPO"
+    url: "https://github.com/josephdriver/right-dose"
+
+- type: PROJECT
+  title: "The Mile High Club"
+  about: "Mock, AirBNB-style marketplace for aircraft rentals."
+  skills:
+  - "Ruby on Rails"
+  - "Bootstrap"
+  - "Flatpickr"
+  - "jQuery"
+  - "Mapbox"
+  - "Cloudinary"
+  - "Faker"
+  - "Pundit"
+  - "Devise"
+  - "Geocoder"
+  - "SASS"
+  - "ERB"
+  - "Simple Form"
+  - "Webpacker"
+  - "PG_Search"
+  - "Trello"
+  - "Figma"
+  duties:
+  - "Collaborated (4-person team) from idea to prototype in 1 week."
+  - "Coded a seed file based on data scraped from various aircraft record pages."
+  links:
+  - anchor: "Demo"
+    url: "https://the-milehigh-club.herokuapp.com/"
+  - anchor: "GitHub"
+    url: "https://github.com/sydneybroccoli/the-milehigh-club"
+
+- type: PROJECT
+  title: "Mister Cocktail/Soup of the Day"
+  about: "Mock, online recipe cocktail book."
+  skills:
+  - "Ruby on Rails"
+  - "SASS"
+  - "Bootstrap"
+  - "Webpacker"
+  - "RSpec"
+  - "PG_Search"
+  - "Simple Form"
+  - "Faker"
+  - "ERB"
+  duties:
+  - "Designed and developed a basic MVC application with CRUD capabilites."
+  links:
+  - anchor: "Demo"
+    url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"
+  - anchor: "GitHub"
+    url: "https://github.com/sydneybroccoli/rails-mister-cocktail"
+
+- type: PROJECT
+  title: "Low-Cost Patient and Healthcare Record System"
+  about: "Developing a joint hardware-software solution for deploying Electronic Healthcare Record-keeping systems for public health groups in developing nations around the world."
+  skills:
+  - "Healthcare"
+  - "Raspberry Pi"
+  duties:
+  - "Research existing solutions; evaluated feasibility of commercial programs to be used at low-cost in rural areas."
+  - "Integrated Raspberry Pi hardware as a server for the software while also providing honeypot access to users."
+  links: null   
+
+- type: PUBLICATION
+  title: "Kinematic Variability vs Upper Extremity Prosthetic Devices"
+  about: "FDA research project focusing on the impact of kinematic differences seen between different upper extremity prosthetic devices during various simulated daily tasks."
+  skills:
+    - "Publications"
+    - "Scientific Writing"
+    - "Data Processing"
+    - "Motion Capture"
     - "Healthcare"
-    - "Raspberry Pi"
-    duties:
-    - "Research existing solutions; evaluated feasibility of commercial programs to be used at low-cost in rural areas."
-    - "Integrated Raspberry Pi hardware as a server for the software while also providing honeypot access to users."
-    links: null   
-  publications:
-  - title: "Assessing kinematic variability during performance of Jebsen-Taylor Hand Function Test."
+    - "Medical Devices"
+    - "Prosthetic Devices"
+  duties:
+    - "Collected, processed and analyzed all data collected during preliminary testing."
+    - "Compiled and outlined results; published results in peer-reviewed periodical:"
+  citation:
+    title: "Assesting kinematic variability during performance of Jebsen-Taylor Hand Function Test"
     publisher: "Journal of Hand Therapy"
     date: "March 2019"
     authors: "Konston, K.L., Wang, S., Barovsky, S., Bloomer, C., Wozniczka, L., Civillico, E.F."
-    link: 
-      anchor: "https://doi.org/10.1016/j.jht.2018.10.002"
-      url: "https://doi.org/10.1016/j.jht.2018.10.002"
+  links: 
+  - anchor: "https://doi.org/10.1016/j.jht.2018.10.002"
+    url: "https://doi.org/10.1016/j.jht.2018.10.002"
 
 experience:
-  professional:
-  - title: "Freelance Software Developer"
-    employment_type: PART_TIME
-    company: null
-    location: null
-    date:
-      start: "04/2020"
-      end: "CURRENT"
-    skills:
-    - "Ruby on Rails"
-    - "PostgreSQL"
-    - "React"
-    - "Redux"
-    - "Firebase"
-    - "Expo"
-    duties:
-    - "Supported development of multiple projects where duties included: feature development, testing and optimization, code reviews, etc."
-    - "Managed remote team/client communications in discussion of all aspects related to the project(s)."
-    - "Built custom web-based applications and mobile-based applications (iOS and Android)."
+- type: PROFESSIONAL
+  title: "Freelance Software Developer"
+  employment_type: PART_TIME
+  company: null
+  location: null
+  date:
+    start: "04/2020"
+    end: "CURRENT"
+  skills:
+  - "Ruby on Rails"
+  - "PostgreSQL"
+  - "React"
+  - "Redux"
+  - "Firebase"
+  - "Expo"
+  duties:
+  - "Supported development of multiple projects where duties included: feature development, testing and optimization, code reviews, etc."
+  - "Managed remote team/client communications in discussion of all aspects related to the project(s)."
+  - "Built custom web-based applications and mobile-based applications (iOS and Android)."
 
-  - title: "Bartender"
-    employment_type: PART_TIME
-    company: "Mule & Elk Brewing"
-    location: "Cle Elum, WA"
-    date:
-      start: "08/2020"
-      end: "CURRENT"
-    skills:
-    - "Customer Service"
-    - "Square POS"
-    duties:
-    - "Responsible for opening, regular operation, and closing of the brewery during normal business hours."
-    - "Educated customers about various brews ranging from English-style cask ales to PNW-style IPAs."
-    - "Enforcement of COVID-19 safety standards for indoor/outdoor dining establishments."
+- type: PROFESSIONAL
+  title: "Bartender / Brewer Assistant"
+  employment_type: PART_TIME
+  company: "Mule & Elk Brewing"
+  location: "Cle Elum, WA"
+  date:
+    start: "08/2020"
+    end: "CURRENT"
+  skills:
+  - "Customer Service"
+  - "Square POS"
+  - "Brewing Equipment"
+  - "Food Safety"
+  duties:
+  - "Responsible for opening, regular operation, and closing of the brewery during normal business hours."
+  - "Educated customers about various brews ranging from English-style cask ales to PNW-style IPAs."
+  - "Enforcement of COVID-19 safety standards for indoor/outdoor dining establishments."
+  - "Managed regular cleaning of tap lines and brewing equpiment within the brewery and other local establishments."
 
-  - title: "Brewers Assistant"
-    employment_type: PART_TIME
-    company: "Mule & Elk Brewing"
-    location: "Cle Elum, WA"
-    date:
-      start: "11/2020"
-      end: "CURRENT"
-    skills:
-    - "Brewing Equipment"
-    - "Food Safety"
-    duties:
-    - "Performed regular cleaning of tap lines and brewing equpiment within the brewery and other local establishments."
+- type: PROFESSIONAL
+  title: "Bartender"
+  employment_type: PART_TIME
+  company: "Scaffidi's Hideout"
+  location: "Milwaukee, WI"
+  date:
+    start: "07/2018"
+    end: "11/2019"
+  skills:
+  - "Customer Service"
+  - "Food Safety"
+  duties:
+  - "Leveraged interpersonal skills in order to provide guests with quality service."
+  - "Assisted with operation of weekly pool leagues."
 
-  - title: "Bartender"
-    employment_type: PART_TIME
-    company: "Scaffidi's Hideout"
-    location: "Milwaukee, WI"
-    date:
-      start: "07/2018"
-      end: "11/2019"
-    skills:
-    - "Customer Service"
-    - "Food Safety"
-    duties:
-    - "Leveraged interpersonal skills in order to provide guests with quality service."
-    - "Assisted with operation of weekly pool leagues."
+- type: PROFESSIONAL
+  title: "Travel/Backpacking"
+  employment_type: FULL_TIME
+  company: null
+  location: Worldwide
+  date:
+    start: "02/2018"
+    end: "05/2018"
+  skills:
+  - "Problem Solving"
+  - "Planning"
+  - "Communication"
+  duties:
+  - "Cultivated language and communication skills through verbal and non-verbal communication."
+  - "Acculturated when faced with new and different cultural and language barriers."
+  - "Modified travel plans to accomodate changing circumstances or new information."
 
-  - title: "Travel/Backpacking"
-    employment_type: FULL_TIME
-    company: null
-    location: Worldwide
-    date:
-      start: "02/2018"
-      end: "05/2018"
-    skills:
-    - "Problem Solving"
-    - "Planning"
-    - "Communication"
-    duties:
-    - "Cultivated language and communication skills through verbal and non-verbal communication."
-    - "Acculturated when faced with new and different cultural and language barriers."
-    - "Modified travel plans to accomodate changing circumstances or new information."
+- type: PROFESSIONAL
+  title: "Banquet Server"
+  employment_type: PART_TIME
+  company: "iPic Theaters: Gold Glass Cinemas"
+  location: "Glendale, WI"
+  date:
+    start: "11/2017"
+    end: "02/2018"
+  skills: 
+  - "Customer Service"
+  - "Point of Sale (POS)"
+  - "Food Safety"
+  duties:
+  - "Maintained a clean and organized banquet area."
+  - "Conveyed information regarding available food/drink options to guests."
 
-  - title: "Lead Guest Services"
-    employment_type: PART_TIME
-    company: "iPic Theaters: Gold Glass Cinemas"
-    location: "Glendale, WI"
-    date:
-      start: "09/2017"
-      end: "02/2018"
-    skills:
-    - "Customer Service"
-    - "Point of Sale (POS)"
-    - "Management"
-    duties:
-    - "Trained all (5) new Guest Services employees hired."
-    - "Resolved any customer service complaints; escalated to a superior as needed."
-    - "Managed the Guest Services counter; assisting 500+ customers daily, in-house and/or over-the-phone."
+- type: PROFESSIONAL
+  title: "Lead Guest Services"
+  employment_type: PART_TIME
+  company: "iPic Theaters: Gold Glass Cinemas"
+  location: "Glendale, WI"
+  date:
+    start: "09/2017"
+    end: "02/2018"
+  skills:
+  - "Customer Service"
+  - "Point of Sale (POS)"
+  - "Management"
+  duties:
+  - "Trained all (5) new Guest Services employees hired."
+  - "Resolved any customer service complaints; escalated to a superior as needed."
+  - "Managed the Guest Services counter; assisting 500+ customers daily, in-house and/or over-the-phone."
 
-  - title: "Banquet Server"
-    employment_type: PART_TIME
-    company: "iPic Theaters: Gold Glass Cinemas"
-    location: "Glendale, WI"
-    date:
-      start: "11/2017"
-      end: "02/2018"
-    skills: 
-    - "Customer Service"
-    - "Point of Sale (POS)"
-    - "Food Safety"
-    duties:
-    - "Maintained a clean and organized banquet area."
-    - "Conveyed information regarding available food/drink options to guests."
+- type: PROFESSIONAL
+  title: "Research Engineer"
+  employment_type: CONTRACT
+  company: "Food & Drug Administration"
+  location: "White Oak, MD"
+  date:
+    start: "05/2015"
+    end: "08/2017"
+  skills:
+  - "Biomechanics"
+  - "VICON"
+  - "Motion Capture"
+  - "Electroencephalography (EEG)"
+  - "Research"
+  - "Data Collection"
+  - "Data Processing"
+  - "IRB"
+  - "Medical Device"
+  - "Prosthetics"
+  - "Matlab"
+  - "Statistics"
+  - "Healthcare"
+  duties:
+  - "Developed 2 testing protocols using novel methods and modification of existing testing methods/systems."
+  - "Utilized motion capture and electroencephalography (EEG) to measure kinematic movement and brain function, respectively."
+  - "Streamlined documentation and data collection protocols through creation of a physical filing system with corresponsing electronic data libraries."
+  - "Conducted preliminary testing on 10+ subjects, from system calibrations to data collection, processing and analysis."
+  - "Demonstrated our findings through lab tours, presentations and publications."
 
-  - title: "Research Engineer"
-    employment_type: CONTRACT
-    company: "Food & Drug Administration"
-    location: "White Oak, MD"
-    date:
-      start: "05/2015"
-      end: "08/2017"
-    skills:
-    - "Biomechanics"
-    - "VICON"
-    - "Motion Capture"
-    - "Electroencephalography (EEG)"
-    - "Research"
-    - "Data Collection"
-    - "Data Processing"
-    - "IRB"
-    - "Medical Device"
-    - "Prosthetics"
-    - "Matlab"
-    - "Statistics"
-    - "Healthcare"
-    duties:
-    - "Developed 2 testing protocols using novel methods and modification of existing testing methods/systems."
-    - "Utilized motion capture and electroencephalography (EEG) to measure kinematic movement and brain function, respectively."
-    - "Streamlined documentation and data collection protocols through creation of a physical filing system with corresponsing electronic data libraries."
-    - "Conducted preliminary testing on 10+ subjects, from system calibrations to data collection, processing and analysis."
-    - "Demonstrated our findings through lab tours, presentations and publications."
+- type: PROFESSIONAL
+  title: "Research Assistant"
+  employment_type: PART_TIME
+  company: "Tech4POD @ Marquette University"
+  location: "Milwaukee, WI"
+  date:
+    start: "01/2015"
+    end: "05/2015"
+  skills:
+  - "Autoscoper"
+  - "Data Processing"
+  - "Biomechanics"
+  duties:
+  - "Utilized Autoscoper software to track/extract data from x-ray fluoroscopy images."
+  - "Processed data from 25+ trials; each trial containing 100's of images."
 
-  - title: "Research Assistant"
-    employment_type: PART_TIME
-    company: "Tech4POD @ Marquette University"
-    location: "Milwaukee, WI"
-    date:
-      start: "01/2015"
-      end: "05/2015"
-    skills:
-    - "Autoscoper"
-    - "Data Processing"
-    - "Biomechanics"
-    duties:
-    - "Utilized Autoscoper software to track/extract data from x-ray fluoroscopy images."
-    - "Processed data from 25+ trials; each trial containing 100's of images."
+- type: VOLUNTEER
+  title: "Volunteer"
+  organization: "Mountains To Sound Greenway"
+  location: "North Bend, WA"
+  date:
+    start: null
+    end: null 
+  cause: "Environment"
+  about: "Mountains to Sound Greenway Trust is a group whose goal is to lead and inspire action to conserve and enhance the local landscapes of Seattle, from the Cascade Mountains to Central Washington, helping to find the long-term balance between people and nature."
+  duties:
+  - "Transported plants from pots to the nursery."
+  - "Cleaned wooded areas and planted fresh shrubbery."
 
-  volunteer:
-  - title: "Volunteer"
-    organization: "Mountains To Sound Greenway"
-    location: "North Bend, WA"
-    date:
-      start: null
-      end: null 
-    cause: "Environment"
-    about: "Mountains to Sound Greenway Trust is a group whose goal is to lead and inspire action to conserve and enhance the local landscapes of Seattle, from the Cascade Mountains to Central Washington, helping to find the long-term balance between people and nature."
-    duties:
-    - "Transported plants from pots to the nursery."
-    - "Cleaned wooded areas and planted fresh shrubbery."
-  - title: "Volunteer"
-    organization: "Seattle's Union Gospel Mission"
-    location: "Seattle, WA"
-    date:
-      start: "2012"
-      end: null
-    cause: "Poverty Alleviation"
-    about: "The Seattle Union Gospel Mission is a non-profit group whose goal is to serve, rescue and transform the lives of the hurting and homeless population in Seattle by providing emergency care and long-term recovery services."
-    duties:
-    - "Distributed food and various goods (blankets; clothes) to homeless populations around the city of Seattle."
-  - title: "Volunteer"
-    organization: "Outdoors For All Foundation"
-    location: "North Bend, WA"
-    date:
-      start: "2012"
-      end: null
-    cause: "Health/Disability"
-    about: "Outdoors For All is a group that aims to improve the quality of life for children and adults with disabilities by providing adaptive and therapeutic outdoor recreation."
-    duties:
-    - "Accomodated rock climbers by providing safe belay or on-wall assistance."
-  - title: "Volunteer"
-    organization: "Special Olympics Washington"
-    location: "Tacoma, WA"
-    date:
-      start: "2011"
-      end: "2014"
-    cause: "Health/Disability"
-    about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with physical and intellectual disabilities."
-    duties:
-    - "Maintained records for events (Shot Put; Long Jump)."
-    - "Marshalled athletes from check-in to events and/or award delivery."
-  - title: "Volunteer"
-    organization: "Hunger Cleanup"
-    location: "Milwaukee, WI"
-    date:
-      start: "2012"
-      end: "2015"
-    cause: "Community Service"
-    about: "Hunger Clean Up is a day of service which aims to build community relations by deploying individuals and groups to 50 different non-profit sites (food banks, homeless shelters, neighborhoods, etc) around Miwaukee."
-    duties:
-    - "Strengthened community relations through a variety of service projects: picking up trash in local neighborhoods; planting a community garden; and yard work for elderly neighbors."
-  organizations:
-  - title: "Member"
-    organization: "Marquette Women's Club Lacrosse"
-    date:
-      start: "2013"
-      end: "2017"
-  - title: "Treasuer"
-    organization: "Marquette Women's Club Lacrosse"
-    date:
-      start: "2015"
-      end: "2016"
-  - title: "Member"
-    organization: "Alpha Chi Women's Fraternity"
-    date:
-      start: "2014"
-      end: "2017"
+- type: VOLUNTEER
+  title: "Volunteer"
+  organization: "Seattle's Union Gospel Mission"
+  location: "Seattle, WA"
+  date:
+    start: "2012"
+    end: null
+  cause: "Poverty Alleviation"
+  about: "The Seattle Union Gospel Mission is a non-profit group whose goal is to serve, rescue and transform the lives of the hurting and homeless population in Seattle by providing emergency care and long-term recovery services."
+  duties:
+  - "Distributed food and various goods (blankets; clothes) to homeless populations around the city of Seattle."
+
+- type: VOLUNTEER
+  title: "Volunteer"
+  organization: "Outdoors For All Foundation"
+  location: "North Bend, WA"
+  date:
+    start: "2012"
+    end: null
+  cause: "Health/Disability"
+  about: "Outdoors For All is a group that aims to improve the quality of life for children and adults with disabilities by providing adaptive and therapeutic outdoor recreation."
+  duties:
+  - "Accomodated rock climbers by providing safe belay or on-wall assistance."
+
+- type: VOLUNTEER
+  title: "Volunteer"
+  organization: "Special Olympics Washington"
+  location: "Tacoma, WA"
+  date:
+    start: "2011"
+    end: "2014"
+  cause: "Health/Disability"
+  about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with physical and intellectual disabilities."
+  duties:
+  - "Maintained records for events (Shot Put; Long Jump)."
+  - "Marshalled athletes from check-in to events and/or award delivery."
+
+- type: VOLUNTEER
+  title: "Volunteer"
+  organization: "Hunger Cleanup"
+  location: "Milwaukee, WI"
+  date:
+    start: "2012"
+    end: "2015"
+  cause: "Community Service"
+  about: "Hunger Clean Up is a day of service which aims to build community relations by deploying individuals and groups to 50 different non-profit sites (food banks, homeless shelters, neighborhoods, etc) around Miwaukee."
+  duties:
+  - "Strengthened community relations through a variety of service projects: picking up trash in local neighborhoods; planting a community garden; and yard work for elderly neighbors."
+
+- type: ORGANIZATION
+  title: "Member"
+  organization: "Marquette Women's Club Lacrosse"
+  location: "Milwaukee, WI"
+  date:
+    start: "2013"
+    end: "2017"
+
+- type: ORGANIZATION
+  title: "Treasuer"
+  organization: "Marquette Women's Club Lacrosse"
+  location: "Milwaukee, WI"
+  date:
+    start: "2015"
+    end: "2016"
+
+- type: ORGANIZATION
+  title: "Member"
+  organization: "Alpha Chi Women's Fraternity"
+  location: "Milwaukee, WI"
+  date:
+    start: "2014"
+    end: "2017"
 
 education:
 - type: BOOTCAMP
@@ -395,6 +431,7 @@ education:
   duties:
   - "MAJOR: Bioelectronics"
   - "MINOR: Electrical Engineering"
+
 - type: HIGH_SCHOOL
   school: "Eastlake High School"
   location: "Sammamish, WA, USA"
@@ -413,79 +450,93 @@ education:
   duties: null
 
 skills_interests:
-  skills:
-    technical:
-      front_end:
-      - "HTML"
-      - "(S)CSS"
-      - "SASS"
-      - "Javascript"
-      - "React JS"
-      - "Bootstrap"
-      - "Material Design"
-      back_end:
-      - "Javascript"
-      - "Expo"
-      - "Node JS"
-      - "Redux JS"
-      - "SQLite"
-      - "PostgreSQL"
-      - "Ruby"
-      - "Rails"
-      - "Expo"
-      - "C++"
-      - "MATLAB"
-      tools:
-      - "Firebase"
-      - "Version Control"
-      - "git"
-      - "GitHub"
-      - "npm/yarn"
-      - "RSpec"
-      - "Capybara"
-      - "Webpacker"
-      - "Cloudinary"
-      - "Heroku"
-      - "Trello"
-      - "Figma"
-      - "Whimsical"
-      - "MS Visio"
-      - "Sublime Text"
-      other:
-      - "Windows"
-      - "Linux"
-      - "Android"
-      - "iOS"
-      - "Notion"
-      - "MS Office"
-      - "Raspberry Pi"
-      - "Multisim"
-      - "LabView"
-      - "Autoscoper"
-      - "Vicon"
-    non_technical:
-    - "Leadership"
-    - "Collaboration"
-    - "Communication"
-    - "Creativity"
-    - "Critical Thinking"
-    - "Problem Solving"
-    - "Adaptability"
-    - "Enthusiasm"
-    - "Work Ethic"
-  interests:
-    technical:
-    - "Environmentalism"
-    - "Sustainability"
-    - "Healthcare"
-    - "Travel"
-    non_technical:
-    - "Reading"
-    - "Podcasts"
-    - "Hiking"
-    - "Snowboarding"
-    - "Dirt Biking"
-    - "Paddleboarding"
+- type: SKILLS
+  category: TECHNICAL
+  title: "FRONT-END"
+  items:
+  - "HTML"
+  - "(S)CSS"
+  - "SASS"
+  - "Javascript"
+  - "React JS"
+  - "Bootstrap"
+  - "Material Design"
+
+- type: SKILLS
+  category: TECHNICAL
+  title: "BACK-END"
+  items:
+  - "Javascript"
+  - "Expo"
+  - "Node JS"
+  - "Redux JS"
+  - "SQLite"
+  - "PostgreSQL"
+  - "Ruby"
+  - "Rails"
+  - "Expo"
+  - "C++"
+  - "MATLAB"
+
+- type: SKILLS
+  category: TECHNICAL
+  title: "TOOLS"
+  items:
+  - "Firebase"
+  - "Version Control"
+  - "git"
+  - "GitHub"
+  - "npm/yarn"
+  - "RSpec"
+  - "Capybara"
+  - "Webpacker"
+  - "Cloudinary"
+  - "Heroku"
+  - "Trello"
+  - "Figma"
+  - "Whimsical"
+  - "MS Visio"
+  - "Sublime Text"
+  - "Windows"
+  - "Linux"
+  - "Android"
+  - "iOS"
+  - "Notion"
+  - "MS Office"
+  - "Raspberry Pi"
+  - "Multisim"
+  - "LabView"
+  - "Autoscoper"
+  - "Vicon"
+
+- type: SKILLS
+  category: NON_TECHNICAL
+  title: "OTHER"
+  items:
+  - "Leadership"
+  - "Collaboration"
+  - "Communication"
+  - "Creativity"
+  - "Critical Thinking"
+  - "Problem Solving"
+  - "Adaptability"
+  - "Enthusiasm"
+  - "Work Ethic"
+
+- type: INTERESTS
+  category: null
+  title: "INTERESTS"
+  items:
+  - "Environmentalism"
+  - "Sustainability"
+  - "Healthcare"
+  - "Travel"
+  - "Reading"
+  - "Podcasts"
+  - "Hiking"
+  - "Snowboarding"
+  - "Dirt Biking"
+  - "Paddleboarding"
 
 languages:
 - language: "English"

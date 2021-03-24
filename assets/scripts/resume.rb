@@ -230,21 +230,23 @@ def create_resume_full( resume )
 
                 # LINK(S)
                 if !port['links'].nil?
-                  ul class: 'port-links pub-links' do
-                    port['links'].each do |link|
-                      li class: 'port-link' do
-                        span class: 'port-link-text' do
-                          " "
-                        end
+                  div class: 'port-link' do
+                    ul class: 'port-links' do
+                      port['links'].each do |link|
+                        li class: 'port-link' do
+                          span class: 'port-link-text' do
+                            "#{link['anchor'].upcase}:"
+                          end
 
-                        span class: 'port-link-link' do
-                          a class: 'link', href: link['url'] do
-                            link['anchor']
+                          span class: 'port-link-link' do
+                            a class: 'link', href: link['url'] do
+                              link['url']
+                            end
                           end
                         end
                       end
-                    end
-                  end 
+                    end 
+                  end  # END OF PORT-LINKS
                 # else
                 #   'NO LINK'
                 end  # END OF PUB-LINK(S)

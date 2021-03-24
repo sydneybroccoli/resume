@@ -1,6 +1,6 @@
 @import './variables.scss';
 
-// PROJECTS
+// SHARED
 .port-item {
   // STYLE
   // FORMAT
@@ -26,46 +26,8 @@
   list-style-type: none; padding-left: 0;
   // FORMAT
   margin: 0;
-
-  a {
-    color: black;
-    text-decoration: underline;
-  }
-  a:hover {
-    padding: 2px;
-    color: white;
-    background-color: $color_main;
-  }
-}
-.project .port-links {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-gap: 0 3px;
-
-  li.port-link { display: contents; }
-  span.port-link-text { 
-    // STYLE
-    font-family: $font-family_header;
-    // FORMAT
-    justify-self: end; align-self: center; 
-  }
-  span.port-link-link { justify-self: start; align-self: center; }
-}
-
-// PUBLICATIONS
-.port-citation {
-  // STYLE
-  // FORMAT
-  .citation-authors {}
-  .citation-date {}
-  .citation-title { font-weight: bold; }
-  .citation-publisher { font-style: italic; }
-
-}
-
-.publication .port-links {
-  display: grid;
-  grid-template-columns: 20px 1fr;
   grid-gap: 0 3px;
 
   li.port-link { display: contents; }
@@ -80,5 +42,22 @@
     font-style: italic;
     text-decoration: underline;
     // FORMAT
-    justify-self: start; align-self: center; }
+    justify-self: start; align-self: center; 
+  }
+}
+
+// PROJECTS
+
+// PUBLICATIONS
+.port-citation {
+  // STYLE
+  // FORMAT
+  padding-left: 30px;
+  text-indent: -10px;
+
+  .citation-authors {}
+  .citation-date {}
+  .citation-title { font-weight: bold; }
+  .citation-publisher { font-style: italic; }
+
 }

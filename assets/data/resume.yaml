@@ -35,16 +35,23 @@ portfolio:
   about: "Making zero waste, zero-hassle.  Scrapit partners with local municipalities to gamify curbside composting and lets users earn rewards they actually want.\nCurrently in pilot testing at MIT."
   skills:
   - "Firebase"
+  - "Realtime Database"
+  - "NoSQL Database"
   - "Expo"
   - "React"
   - "Redux"
   - "Android"
   - "iOS"
+  - "QR Code"
+  - "Mobile Permissions"
+  - "Mobile Notifications"
+  - "Mobile Share"
+  - "Mobile Download"
   duties:
-  - "Coordinated continued development and pilot testing though remote communications (Slack; Zoom) across multiple teams."
+  - "Coordinated continued development and pilot testing through remote communications (Slack; Zoom) across multiple teams."
   - "Recreated a web-based prototype application as a fully mobile application (iOS; Android)."
   - "Automated permission requests and re-requests across iOS and Android devices through a modular, centralized method."
-  - "Implemented additional functionality to allow users to share and/or download QR code images."
+  - "Implemented functionality to allow users to share and/or download QR code images."
   links: null
 
 - type: PROJECT
@@ -69,10 +76,10 @@ portfolio:
   - "Trello"
   - "Figma"
   duties:
-  - "Conceptualized and developed a web-based application from pitch to prototype in two (2) weeks."
+  - "Conceptualized and developed a web-based application from pitch to prototype over a two (2) week timeframe."
   - "Generated a 1200+ line seed file based on data scraped from existing Queensland Ambulance Service drug protocols."
   - "Spearheaded the paramedic-side of the application: basic dashboard design and functionality; drug 'drag and drop' functionality and 'dosing' functionality; algorithms devised to advise paramedics on proper drug dosing and timing given certain patient information."
-  - "Modified the paramedic-side of the application to accomodate for mobile-first (primarily tablet) use."
+  - "Modified the paramedic-side of the application to accomodate for mobile-first (tablet) use."
   links:
   - anchor: "DEMO"
     url: "https://right-dose.herokuapp.com/"
@@ -100,8 +107,9 @@ portfolio:
   - "PG_Search"
   - "Trello"
   - "Figma"
+  - "RSpec"
   duties:
-  - "Troubleshot various bugs."
+  - "Automated testing with RSpec; manually troubleshot to debug remaining issues."
   - "Inventoried a database of basic aircraft data scraped from various aircraft records pages; utilized the database in construction of a seed file."
   links:
   - anchor: "DEMO"
@@ -123,9 +131,10 @@ portfolio:
   - "Faker"
   - "ERB"
   - "API"
+  - "The Cocktail DB"
   duties:
   - "Implemented an API (The Cocktail DB) which returned a random cocktail; utilized the returned data in the construction of a seed file."
-  - "Designed and developed a basic MVC application with CRUD capabilites."
+  - "Designed and developed a userless MVC application with CRUD capabilities."
   links:
   - anchor: "DEMO"
     url: "https://sydneybroccoli-mister-cocktail.herokuapp.com/"
@@ -137,21 +146,26 @@ portfolio:
   about: "Developing a joint hardware-software solution for deploying Electronic Healthcare Record-keeping systems for public health groups in developing nations around the world."
   skills:
   - "Healthcare"
+  - "Healthcare Record Systems"
+  - "HIPPA"
+  - "Wireless Solutions"
   - "Raspberry Pi"
   duties:
   - "Research existing solutions; evaluated feasibility of commercial programs to be used at low-cost in rural areas."
-  - "Programmed a Raspberry Pi to serve the software and provide users honeypot access to the program."
+  - "Programmed a Raspberry Pi to host the software and provide users honeypot access to the developed record system."
   links: null   
 
 - type: PUBLICATION
   title: "Kinematic Variability vs Upper Extremity Prosthetic Devices"
   about: "FDA research project focusing on the impact of kinematic differences seen between different upper extremity prosthetic devices during various simulated daily tasks."
   skills:
-    - "Publications"
+    - "Healthcare"
+    - "Peer-Review"
+    - "Publication"
+    - "Scientific Journals"
     - "Scientific Writing"
     - "Data Processing"
     - "Motion Capture"
-    - "Healthcare"
     - "Medical Devices"
     - "Prosthetic Devices"
   duties:
@@ -163,7 +177,7 @@ portfolio:
     date: "March 2019"
     authors: "Konston, K.L., Wang, S., Barovsky, S., Bloomer, C., Wozniczka, L., Civillico, E.F."
   links: 
-  - anchor: "https://doi.org/10.1016/j.jht.2018.10.002"
+  - anchor: "DOI"
     url: "https://doi.org/10.1016/j.jht.2018.10.002"
 
 experience:
@@ -179,12 +193,18 @@ experience:
   - "Ruby"
   - "Ruby on Rails"
   - "PostgreSQL"
+  - "SQL Database"
   - "React"
   - "Redux"
   - "Firebase"
+  - "NoSQL Database"
   - "Expo"
   - "Heroku"
+  - "git"
+  - "GitHub"
   - "Remote Communication"
+  - "Slack"
+  - "Zoom"
   duties:
   - "Strategized with clients/team members remotely (Slack; Zoom)."
   - "Curated custom web-based applications and mobile-based applications (iOS and Android)."
@@ -203,6 +223,8 @@ experience:
   - "Square POS"
   - "Brewing Equipment"
   - "Food Safety"
+  - "Alcohol Safety"
+  - "Bartending"
   duties:
   - "Enforcement of COVID-19 safety standards for indoor/outdoor dining establishments."
   - "Conducted regular cleaning of tap lines and brewing equipment in-house;"
@@ -220,26 +242,32 @@ experience:
   skills:
   - "Customer Service"
   - "Food Safety"
+  - "Alcohol Safety"
+  - "Bartending"
+  - "Pool/Billiards"
   duties:
   - "Oversaw weekly pool leagues."
   - "Utilized interpersonal skills in order to provide all guests with quality service."
 
 - type: PROFESSIONAL
-  title: "Travel/Backpacking"
+  title: "Travel / Backpacking"
   employment_type: FULL_TIME
   company: null
-  location: Worldwide
+  location: null
   date:
     start: "02/2018"
     end: "05/2018"
   skills:
-  - "Problem Solving"
+  - "Travel"
+  - "Language/Culture"
   - "Planning"
+  - "Problem Solving"
   - "Communication"
+  - "Adaptability"
   duties:
   - "Cultivated language and communication skills through verbal and non-verbal communication."
   - "Acculturated when faced with new and different cultural and language barriers."
-  - "Embraced and adapted to changing circumstances encountered while travelling."
+  - "Embraced and adapted to changing circumstances."
 
 - type: PROFESSIONAL
   title: "Lead Guest Services / Banquet Server"
@@ -254,6 +282,8 @@ experience:
   - "Point of Sale (POS)"
   - "Management"
   - "Food Safety"
+  - "Alcohol Safety"
+  - "Serving"
   duties:
   - "Trained all (5) new Guest Services employees and supervised throughout probationary periods."
   - "Resolved customer grievances, escalating to superiors when required."
@@ -268,25 +298,27 @@ experience:
     start: "05/2015"
     end: "08/2017"
   skills:
+  - "Research"
+  - "Healthcare"
   - "Biomechanics"
   - "VICON"
   - "Motion Capture"
   - "Electroencephalography (EEG)"
-  - "Research"
   - "Data Collection"
   - "Data Processing"
+  - "Matlab"
+  - "Statistics"
   - "IRB"
   - "Medical Device"
   - "Prosthetics"
-  - "Matlab"
-  - "Statistics"
-  - "Healthcare"
+  - "Publication"
+  - "Test Development"
   duties:
   - "Conceptualized two (2) testing protocols by means of conceiving novel methods and the modification of exisiting methods/systems."
-  - "Integrated motion capture (VICON) and electroencephalography (EEG) technologies into testing as to quantitatively measure kinematic movement and cognitive function, respectively."
+  - "Integrated motion capture (VICON) and electroencephalography (EEG) technologies into testing to quantitatively measure kinematic movement and cognitive function, respectively."
   - "Streamlined data collection by consolidated and organizing documentation protocols by introduction of reciprocal paper and electronic data libraries."
   - "Coordinated preliminary testing through: system calibration; administration of testing protcols; and data collection, processing and analysis."
-  - "Manifested findings through lab tours,  presentations, and peer-reviewed publications."
+  - "Disclosed findings through lab tours,  presentations, and peer-reviewed publications."
 
 - type: PROFESSIONAL
   title: "Research Assistant"
@@ -297,6 +329,9 @@ experience:
     start: "01/2015"
     end: "05/2015"
   skills:
+  - "Research"
+  - "Healthcare"
+  - "3D Modeling"
   - "Autoscoper"
   - "Data Processing"
   - "Biomechanics"
@@ -347,7 +382,7 @@ experience:
     start: "2011"
     end: "2014"
   cause: "Health/Disability"
-  about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with physical and intellectual disabilities."
+  about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with various disabilities."
   duties:
   - "Encouraged and supported athletes with active plaudits from the sidelines."
   - "Facilitated operation of track and field events: documented event results; marshalled athletes; and delivered awards."

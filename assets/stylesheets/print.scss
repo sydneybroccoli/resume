@@ -10,14 +10,61 @@
 14pt = 19 px = 1.2 em
 24pt = 32 px = 2.0 em
 */
+
 @import './variables.scss';
 
-@media print {
-  #page-break { page-break-after: always; }
-  .print-nobreak { page-break-inside: avoid; }
+@media screen {
 
+}
+
+@media print {
+  // SHARED
+  .print_pb-after-always {
+    break-after: always; 
+    page-break-after: always; 
+  }
+  .print_pb-after-avoid {
+    break-after: avoid-page; 
+    page-break-after: avoid-page; 
+  }
+  .print_pb-before-always { 
+    break-after: always;
+    page-break-before: always; 
+  }
+  .print_pb-before-avoid {
+    break-after: avoid-page; 
+    page-break-after: avoid-page; 
+  }
+  .print_pb-avoid {
+    break-inside: avoid-page; 
+    page-break-inside: avoid-page; 
+  }
+
+
+  // PAGE
   @page {
-    margin: 0.25in;
-    size: A4;
+    size: auto;
+    margin: 5mm 6mm 5mm 5mm;
+  }
+
+  // ELEMENTS
+  ul {
+    break-inside: avoid-page;
+    page-break-inside: avoid-page;
+  }
+
+  // SELECTORS
+  .item {
+    break-inside: avoid-page;
+    page-break-inside: avoid-page;
+  }
+
+  .section-header {
+    break-after: avoid-page;  
+    page-break-after: avoid-page;
+  }
+
+  .port-citation {
+    padding-left: 0;
   }
 }

@@ -34,7 +34,6 @@ header {
   .container {
     width: 1170px; } }
 .item {
-  page-break-inside: avoid;
   padding: 0 15px;
   margin: 0 auto;
   margin-top: 6px;
@@ -77,6 +76,9 @@ a.link {
     color: white;
     background-color: #008B8B;
     padding: 2px; }
+
+.indent-left {
+  padding-left: 20px; }
 
 #education {
   width: 100%; }
@@ -219,6 +221,10 @@ a.link {
     align-self: stretch;
     justify-self: end; }
 
+#resume-header {
+  margin: 0 auto;
+  padding: 6px; }
+
 #header-name {
   font-family: "Source Code Pro", monospace;
   font-size: 40px;
@@ -260,15 +266,43 @@ a.link {
 24pt = 32 px = 2.0 em
 */
 @media print {
-  #page-break {
+  .print_pb-after-always {
+    break-after: always;
     page-break-after: always; }
 
-  .print-nobreak {
-    page-break-inside: avoid; }
+  .print_pb-after-avoid {
+    break-after: avoid-page;
+    page-break-after: avoid-page; }
+
+  .print_pb-before-always {
+    break-after: always;
+    page-break-before: always; }
+
+  .print_pb-before-avoid {
+    break-after: avoid-page;
+    page-break-after: avoid-page; }
+
+  .print_pb-avoid {
+    break-inside: avoid-page;
+    page-break-inside: avoid-page; }
 
   @page {
-    margin: 0.25in;
-    size: A4; } }
+    size: auto;
+    margin: 5mm 6mm 5mm 5mm; }
+  ul {
+    break-inside: avoid-page;
+    page-break-inside: avoid-page; }
+
+  .item {
+    break-inside: avoid-page;
+    page-break-inside: avoid-page; }
+
+  .section-header {
+    break-after: avoid-page;
+    page-break-after: avoid-page; }
+
+  .port-citation {
+    padding-left: 0; } }
 .port-item {
   margin: 10px 0; }
 
@@ -284,49 +318,29 @@ a.link {
 .port-links {
   list-style-type: none;
   padding-left: 0;
-  margin: 0; }
-  .port-links a {
-    color: black;
-    text-decoration: underline; }
-  .port-links a:hover {
-    padding: 2px;
-    color: white;
-    background-color: #008B8B; }
-
-.project .port-links {
+  margin: 0;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 0 3px; }
-  .project .port-links li.port-link {
+  .port-links li.port-link {
     display: contents; }
-  .project .port-links span.port-link-text {
+  .port-links span.port-link-text {
     font-family: "Source Code Pro", monospace;
     justify-self: end;
     align-self: center; }
-  .project .port-links span.port-link-link {
-    justify-self: start;
-    align-self: center; }
-
-.port-citation .citation-title {
-  font-weight: bold; }
-.port-citation .citation-publisher {
-  font-style: italic; }
-
-.publication .port-links {
-  display: grid;
-  grid-template-columns: 20px 1fr;
-  grid-gap: 0 3px; }
-  .publication .port-links li.port-link {
-    display: contents; }
-  .publication .port-links span.port-link-text {
-    font-family: "Source Code Pro", monospace;
-    justify-self: end;
-    align-self: center; }
-  .publication .port-links span.port-link-link {
+  .port-links span.port-link-link {
     font-style: italic;
     text-decoration: underline;
     justify-self: start;
     align-self: center; }
+
+.port-citation {
+  padding-left: 30px;
+  text-indent: -10px; }
+  .port-citation .citation-title {
+    font-weight: bold; }
+  .port-citation .citation-publisher {
+    font-style: italic; }
 
 .skin-content {
   display: grid;

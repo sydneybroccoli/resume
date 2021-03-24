@@ -19,7 +19,6 @@ header { display: none; }
 @media (min-width: 1200px) { .container { width: 1170px; } }
 
 .item {
-  page-break-inside: avoid;
   padding: 0 15px;
   margin: 0 auto; margin-top: 6px; margin-bottom: 6px;
 }
@@ -79,6 +78,11 @@ a.link {
     // FORMAT
     padding: 2px;
   }
+}
+
+// STYLING
+.indent-left {
+  padding-left: 20px;
 }
 
 

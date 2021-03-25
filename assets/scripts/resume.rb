@@ -541,43 +541,147 @@ def create_resume_full( resume )
             'SKILLS & INTERESTS'
           end
 
+          # SKIN-CONTENT
           div class: 'skin-content' do
-            data['skills_interests'].each do |skin|
-              case skin['type']
-              when 'SKILLS'
-                div class: 'skin-row skin-skills print-nobreak item' do
-                  # ROW LEFT: TITLE
-                  p class: 'skin-row-title' do
-                    skin['title']
-                  end
-                  # ROW RIGHT: ITEMS
-                  ul class: 'skin-row-items bubble-list' do
-                    skin['items'].each do |item|
+            # SOFTWARE
+            # SOFTWARE / FRONT-END
+            div class: 'skin-software skin-row item' do
+              # TITLE
+              p class: 'skin-row-title' do
+                'FRONT-END'
+              end
+              # ITEMS
+              div class: 'skin-row-items' do
+                data['skills_interests'].select do |obj|
+                  obj['industry'] == 'SOFTWARE' && 
+                  ( obj['category'] == 'FRONT_END' ||
+                    obj['category'] == 'FRONT_END_TOOLS' )
+                end.each do |obj|
+                  ul class: 'bubble-list' do
+                    obj['items'].each do |item|
                       li class: 'skin-row-item' do
                         item
                       end
-                    end
-                  end
-                end
-              when 'INTERESTS'
-                div class: 'skin-row skin-interests print-nobreak item' do
-                  # ROW LEFT: TITLE
-                  p class: 'skin-row-title' do
-                    skin['title']
-                  end
-                  # ROW RIGHT: ITEMS
-                  ul class: 'skin-row-items bubble-list' do
-                    skin['items'].each do |item|
+                    end  # END OF SKIN-LIST-ITEMS
+                  end  # END OF SKIN-LIST
+                end  # END OF EACH: SELECTED SKIN
+              end  # END OF SKILLS-ROW-ITEMS
+            end  # END OF SKILLS-ROW
+
+            # SOFTWARE / BACK-END
+            div class: 'skin-software skin-row item' do
+              # TITLE
+              p class: 'skin-row-title' do
+                'BACK-END'
+              end
+              # ITEMS
+              div class: 'skin-row-items' do
+                data['skills_interests'].select do |obj|
+                  obj['industry'] == 'SOFTWARE' && 
+                  ( obj['category'] == 'BACK_END' ||
+                    obj['category'] == 'BACK_END_TOOLS' )
+                end.each do |obj|
+                  ul class: 'bubble-list' do
+                    obj['items'].each do |item|
                       li class: 'skin-row-item' do
                         item
                       end
-                    end
-                  end
-                end
-              else
-                'NO MATCHING SKILL/INTEREST TYPE'
-              end  # END OF SKILLS_INTEREST CASE
-            end  # END OF SKILLS_INTERESTS LOOP
+                    end  # END OF SKIN-LIST-ITEMS
+                  end  # END OF SKIN-LIST
+                end  # END OF EACH: SELECTED SKIN
+              end  # END OF SKILLS-ROW-ITEMS
+            end  # END OF SKILLS-ROW
+
+            # SOFTWARE / TOOLS
+             div class: 'skin-software skin-row item' do
+              # TITLE
+              p class: 'skin-row-title' do
+                'TOOLS'
+              end
+              # ITEMS
+              div class: 'skin-row-items' do
+                data['skills_interests'].select do |obj|
+                  obj['industry'] == 'SOFTWARE' &&
+                  obj['category'] == 'TOOLS'
+                end.each do |obj|
+                  ul class: 'bubble-list' do
+                    obj['items'].each do |item|
+                      li class: 'skin-row-item' do
+                        item
+                      end
+                    end  # END OF SKIN-LIST-ITEMS
+                  end  # END OF SKIN-LIST
+                end  # END OF EACH: SELECTED SKIN
+              end  # END OF SKILLS-ROW-ITEMS
+            end  # END OF SKILLS-ROW
+
+            # BIOMEDICAL
+             div class: 'skin-biomedical skin-row item' do
+              # TITLE
+              p class: 'skin-row-title' do
+                'BIOMEDICAL ENGINEERING'
+              end
+              # ITEMS
+              div class: 'skin-row-items' do
+                data['skills_interests'].select do |obj|
+                  obj['industry'] == 'GENERAL'
+                end.each do |obj|
+                  ul class: 'bubble-list' do
+                    obj['items'].each do |item|
+                      li class: 'skin-row-item' do
+                        item
+                      end
+                    end  # END OF SKIN-LIST-ITEMS
+                  end  # END OF SKIN-LIST
+                end  # END OF EACH: SELECTED SKIN
+              end  # END OF SKILLS-ROW-ITEMS
+            end  # END OF SKILLS-ROW
+
+            # SERVICE
+            div class: 'skin-service skin-row item' do
+              # TITLE
+              p class: 'skin-row-title' do
+                'SERVICE INDUSTRY'
+              end
+              # ITEMS
+              div class: 'skin-row-items' do
+                data['skills_interests'].select do |obj|
+                  obj['industry'] == 'SERVICE'
+                end.each do |obj|
+                  ul class: 'bubble-list' do
+                    obj['items'].each do |item|
+                      li class: 'skin-row-item' do
+                        item
+                      end
+                    end  # END OF SKIN-LIST-ITEMS
+                  end  # END OF SKIN-LIST
+                end  # END OF EACH: SELECTED SKIN
+              end  # END OF SKILLS-ROW-ITEMS
+            end  # END OF SKILLS-ROW
+
+            # GENERAL
+            div class: 'skin-general skin-row item' do
+              # TITLE
+              p class: 'skin-row-title' do
+                'OTHER'
+              end
+              # ITEMS
+              arr = data['skills_interests'].select do |obj|
+                obj['industry'] == 'GENERAL'
+              end
+              div class: 'skin-row-items' do
+                arr.each do |obj|
+                  ul class: 'bubble-list' do
+                    obj['items'].each do |item|
+                      li class: 'skin-row-item' do
+                        item
+                      end
+                    end  # END OF SKIN-LIST-ITEMS
+                  end  # END OF SKIN-LIST
+                end  # END OF EACH: SKIN-ARR
+              end  # END OF SKILLS-ITEMS
+            end  # END OF SKILLS-ROW
+
           end  # END OF SKILLS_INTEREST-CONTENT
 
         end  # END OF SKILLS_INTERESTS

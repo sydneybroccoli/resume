@@ -25,17 +25,17 @@
   }
 
   // ELEMENTS
-  ul {
+  p, span, ul {
     break-inside: avoid-page;
     page-break-inside: avoid-page;
   }
 
   // SELECTORS
-  .item {
+  .item * {
     break-inside: avoid-page;
     page-break-inside: avoid-page;
   }
-
+  
   .section-header {
     break-after: avoid-page;  
     page-break-after: avoid-page;
@@ -43,5 +43,10 @@
 
   .port-citation {
     padding-left: 0;
+  }
+
+  .skin-row {
+    break-inside: avoid-page;
+    page-break-inside: avoid-page; 
   }
 }

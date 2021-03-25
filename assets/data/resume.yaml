@@ -2,7 +2,7 @@ name: "Sydney Barovsky"
 headline:
 - "Bioelectrical Engineer"
 - "Full Stack Software Engineer"
-about: "Full Stack Software Engineer with 3 years of experience ranging from programming and web development to data processing and analysis.  Educated and experienced in the fields of Biomedical Engineering and medical device research."
+about: "Full Stack Software Engineer with 3 years of experience ranging from programming and web development to biomechanical data processing and analysis.  Educated and experienced primarily in the fields of Biomedical Engineering and medical device research."
 contact:
 - type: "location"
   icon: "<i class='fas fa-map-marker'></i>"
@@ -147,7 +147,6 @@ portfolio:
   skills:
   - "Healthcare"
   - "Healthcare Record Systems"
-  - "HIPPA"
   - "Wireless Solutions"
   - "Raspberry Pi"
   duties:
@@ -473,8 +472,8 @@ education:
   duties: null
 
 skills_interests:
-- type: SKILLS
-  category: TECHNICAL
+- industry: SOFTWARE
+  category: FRONT_END
   title: "FRONT-END"
   items:
   - "HTML"
@@ -482,38 +481,75 @@ skills_interests:
   - "SASS"
   - "Javascript"
   - "React JS"
+- industry: SOFTWARE
+  category: FRONT_END_TOOLS
+  title: "FRONT-END TOOLS"
+  items:
   - "Bootstrap"
   - "Material Design"
-
-- type: SKILLS
-  category: TECHNICAL
+  - "Font Awesome"
+  - "Pexels"
+  - "Coolors"
+  - "Google Fonts"
+  - "particles JS"
+- industry: SOFTWARE
+  category: BACK_END
   title: "BACK-END"
   items:
+  - "C++"
+  - "Ruby"
+  - "ERB"
+  - "MATLAB"
   - "Javascript"
-  - "Expo"
   - "Node JS"
   - "Redux JS"
+  - "jQuery"
+  - "Expo"
+  - "Rails"
+  - "Ruby on Rails"
+  - "SQL Databases"
   - "SQLite"
   - "PostgreSQL"
-  - "Ruby"
-  - "Rails"
-  - "Expo"
-  - "C++"
-  - "MATLAB"
-
-- type: SKILLS
-  category: TECHNICAL
-  title: "TOOLS"
-  items:
+  - "NoSQL Databases"
   - "Firebase"
-  - "Version Control"
-  - "git"
-  - "GitHub"
+  - "Realtime Database"
+  - "Android"
+  - "iOS"
+- industry: SOFTWARE
+  category: BACK_END_TOOLS
+  title: "BACK-END TOOLS"
+  items:
   - "npm/yarn"
   - "RSpec"
   - "Capybara"
   - "Webpacker"
   - "Cloudinary"
+  - "QR Codes"
+  - "Mobile Permissions"
+  - "Mobile Noticiations"
+  - "Mobile Share"
+  - "Mobile Download"
+  - "Algolia"
+  - "PG_Search"
+  - "Mapbox"
+  - "Geocoder"
+  - "Date-FNS"
+  - "Sortable"
+  - "Sweet Alert"
+  - "Faker"
+  - "Pundit"
+  - "Devise"
+  - "SWAL Forms"
+  - "Simple Forms"
+  - "Flatpickr"
+  - "External API"
+- industry: SOFTWARE
+  category: TOOLS
+  title: "TOOLS"
+  items:
+  - "Version Control"
+  - "git"
+  - "GitHub"
   - "Heroku"
   - "Trello"
   - "Figma"
@@ -522,32 +558,86 @@ skills_interests:
   - "Sublime Text"
   - "Windows"
   - "Linux"
-  - "Android"
-  - "iOS"
-  - "Notion"
-  - "MS Office"
+
+- industry: BIOMEDICAL
+  category: TECHNICAL
+  title: "TECHNICAL"
+  items:
   - "Raspberry Pi"
+  - "Arduino"
+  - "PSoC"
+  - "Vicon"
+  - "Autoscoper"
   - "Multisim"
   - "LabView"
-  - "Autoscoper"
-  - "Vicon"
-
-- type: SKILLS
+  - "MATLAB"
+- industry: BIOMEDICAL
   category: NON_TECHNICAL
-  title: "OTHER"
+  title: "NON-TECHNICAL"
   items:
+  - "Healthcare"
+  - "Healthcare Record Systems"
+  - "Biomechanics"
+  - "Motion Capture"
+  - "Electroencephalography (EEG)"
+  - "Medical Devices"
+  - "Prosthetics"
+  - "Test Development"
+  - "IRB"
+  - "Research"
+  - "Data Collection"
+  - "Data Processing"
+  - "Statistical Analysis"
+  - "Publication"
+  - "Scientific Writing"
+  - "Peer-Review"
+  - "Scientific Journals"
+  - "Wireless Solutions"
+
+- industry: SERVICE
+  category: TECHNICAL
+  title: "TECHNICAL"
+  items:
+  - "Brewing Equipment"
+  - "Point of Sale (POS)"
+  - "Square POS"
+  - "HotSchedules"
+- industry: SERVICE
+  category: NON_TECHNICAL
+  title: "NON-TECHNICAL"
+  items:
+  - "Customer Service"
+  - "Management"
+  - "Food Safety"
+  - "Alcohol Safety"
+  - "Serving"
+  - "Bartending"
+
+- industry: GENERAL
+  category: TECHNICAL
+  title: "TECHNICAL"
+  items:
+  - "MS Office"
+  - "Notion"
+  - "Slack"
+  - "Zoom"
+- industry: GENERAL
+  category: NON_TECHNICAL
+  title: "NON-TECHNICAL"
+  items:
+  - "Communication"
+  - "Remote Communication"
+  - "Planning"
+  - "Organization"
   - "Leadership"
   - "Collaboration"
-  - "Communication"
   - "Creativity"
   - "Critical Thinking"
   - "Problem Solving"
   - "Adaptability"
-  - "Enthusiasm"
   - "Work Ethic"
-
-- type: INTERESTS
-  category: null
+- industry: GENERAL
+  category: INTERESTS
   title: "INTERESTS"
   items:
   - "Environmentalism"
@@ -557,7 +647,9 @@ skills_interests:
   - "Reading"
   - "Podcasts"
   - "Hiking"
+  - "Camping"
   - "Snowboarding"
+  - "Snowshoeing"
   - "Dirt Biking"
   - "Paddleboarding"
 

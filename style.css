@@ -269,11 +269,11 @@ a.link {
   @page {
     size: auto;
     margin: 5mm 6mm 5mm 5mm; }
-  ul {
+  p, span, ul {
     break-inside: avoid-page;
     page-break-inside: avoid-page; }
 
-  .item {
+  .item * {
     break-inside: avoid-page;
     page-break-inside: avoid-page; }
 
@@ -282,7 +282,11 @@ a.link {
     page-break-after: avoid-page; }
 
   .port-citation {
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  .skin-row {
+    break-inside: avoid-page;
+    page-break-inside: avoid-page; } }
 .port-item {
   margin: 10px 0; }
 
@@ -322,22 +326,22 @@ a.link {
   .port-citation .citation-publisher {
     font-style: italic; }
 
-.skin-content {
+.skin-row {
   display: grid;
   grid-template-rows: repeat(auto-fill, auto);
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 100px 1fr;
   grid-gap: 6px 5px; }
-  .skin-content .skin-row {
-    display: contents;
-    page-break-inside: avoid; }
-  .skin-content .skin-row-title {
-    font-weight: bold;
-    margin: 0;
-    justify-self: end;
-    align-self: center; }
-  .skin-content .skin-row-items {
-    margin: 0;
-    justify-self: start;
-    align-self: center; }
+
+.skin-row-title {
+  font-weight: bold;
+  text-align: right;
+  margin: 0;
+  justify-self: end;
+  align-self: center; }
+
+.skin-row-items {
+  margin: 0;
+  justify-self: start;
+  align-self: center; }
 
 /*# sourceMappingURL=style.css.map */

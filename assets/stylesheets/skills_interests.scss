@@ -1,32 +1,28 @@
 @import './variables.scss';
 
 // SHARED
-.skin-content {
+.skin-row { 
   // STYLE
   // FORMAT
   display: grid;
   grid-template-rows: repeat(auto-fill, auto);
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 100px 1fr;
   grid-gap: 6px 5px;
+  // ONLY NEEDED IF SKIN-CONTENT CONTAINS DISPLAY: GRID
+  // display: contents; // MAKES THE DIV "INVISIBLE"
+}  
 
-  .skin-row { 
-    // STYLE
-    // FORMAT
-    display: contents; // MAKES THE DIV "INVISIBLE"
-    page-break-inside: avoid;
-  }  
-
-  .skin-row-title { 
-    // STYLE
-    font-weight: bold;
-    // FORMAT
-    margin: 0;
-    justify-self: end; align-self: center;
-  }
-  .skin-row-items {
-    // STYLE
-    // FORMAT
-    margin: 0;
-    justify-self: start;  align-self: center;
-  }
+.skin-row-title { 
+  // STYLE
+  font-weight: bold;
+  text-align: right;
+  // FORMAT
+  margin: 0;
+  justify-self: end; align-self: center;
+}
+.skin-row-items {
+  // STYLE
+  // FORMAT
+  margin: 0;
+  justify-self: start;  align-self: center;
 }

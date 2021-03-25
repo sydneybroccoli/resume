@@ -624,7 +624,7 @@ def create_resume_full( resume )
               # ITEMS
               div class: 'skin-row-items' do
                 data['skills_interests'].select do |obj|
-                  obj['industry'] == 'GENERAL'
+                  obj['industry'] == 'BIOMEDICAL'
                 end.each do |obj|
                   ul class: 'bubble-list' do
                     obj['items'].each do |item|
@@ -667,7 +667,9 @@ def create_resume_full( resume )
               end
               # ITEMS
               arr = data['skills_interests'].select do |obj|
-                obj['industry'] == 'GENERAL'
+                obj['industry'] == 'GENERAL' &&
+                ( obj['category'] == 'TECHNICAL' || 
+                  obj['category'] == 'NON_TECHNICAL')
               end
               div class: 'skin-row-items' do
                 arr.each do |obj|
@@ -681,6 +683,31 @@ def create_resume_full( resume )
                 end  # END OF EACH: SKIN-ARR
               end  # END OF SKILLS-ITEMS
             end  # END OF SKILLS-ROW
+
+            # INTERESTS
+            div class: 'skin-general skin-row item' do
+              # TITLE
+              p class: 'skin-row-title' do
+                'INTERESTS'
+              end
+              # ITEMS
+              arr = data['skills_interests'].select do |obj|
+                obj['industry'] == 'GENERAL' &&
+                obj['category'] == 'INTERESTS'
+              end
+              div class: 'skin-row-items' do
+                arr.each do |obj|
+                  ul class: 'bubble-list' do
+                    obj['items'].each do |item|
+                      li class: 'skin-row-item' do
+                        item
+                      end
+                    end  # END OF SKIN-LIST-ITEMS
+                  end  # END OF SKIN-LIST
+                end  # END OF EACH: SKIN-ARR
+              end  # END OF SKILLS-ITEMS
+            end  # END OF SKILLS-ROW
+
 
           end  # END OF SKILLS_INTEREST-CONTENT
 

@@ -2,7 +2,7 @@ name: "Sydney Barovsky"
 headline:
 - "Bioelectrical Engineer"
 - "Full Stack Software Engineer"
-about: "Full Stack Software Engineer with 3 year of experience coding ranging from web development or data processing/analysis.  Educated and experienced in the fields Biomedical Engineering and medical device research."
+about: "Full Stack Software Engineer with 3 years of experience ranging from programming and web development to data processing and analysis.  Educated and experienced in the fields of Biomedical Engineering and medical device research."
 contact:
 - type: "location"
   icon: "<i class='fas fa-map-marker'></i>"
@@ -88,7 +88,7 @@ portfolio:
 
 - type: PROJECT
   title: "The Mile High Club"
-  about: "Mock, AirBNB-style marketplace for aircraft rentals."
+  about: "Mock, Airbnb-style marketplace for aircraft rentals."
   skills:
   - "Ruby on Rails"
   - "Bootstrap"
@@ -151,7 +151,7 @@ portfolio:
   - "Wireless Solutions"
   - "Raspberry Pi"
   duties:
-  - "Research existing solutions; evaluated feasibility of commercial programs to be used at low-cost in rural areas."
+  - "Researched existing solutions; evaluated feasibility of commercial programs to be used at low-cost in rural areas."
   - "Programmed a Raspberry Pi to host the software and provide users honeypot access to the developed record system."
   links: null   
 
@@ -226,7 +226,7 @@ experience:
   - "Alcohol Safety"
   - "Bartending"
   duties:
-  - "Enforcement of COVID-19 safety standards for indoor/outdoor dining establishments."
+  - "Enforced COVID-19 safety standards for indoor/outdoor dining establishments."
   - "Conducted regular cleaning of tap lines and brewing equipment in-house;"
   - "Responsible for unsupervised operation (opening; operation/sales; closing) of the brewery during regular business hours."
   - "Informed customers about available brews ranging from traditional English-style cask ales to PNW-style IPAs."
@@ -266,7 +266,7 @@ experience:
   - "Adaptability"
   duties:
   - "Cultivated language and communication skills through verbal and non-verbal communication."
-  - "Acculturated when faced with new and different cultural and language barriers."
+  - "Acculturated when faced with various  cultural and/or language barriers."
   - "Embraced and adapted to changing circumstances."
 
 - type: PROFESSIONAL
@@ -285,7 +285,7 @@ experience:
   - "Alcohol Safety"
   - "Serving"
   duties:
-  - "Trained all (5) new Guest Services employees and supervised throughout probationary periods."
+  - "Trained all (5) new Guest Services employees and supervised throughout their probationary periods."
   - "Resolved customer grievances, escalating to superiors when required."
   - "Ensured guest satisfaction during banquet events: conveyed available food/drink options; delivered any guest-requested items; maintained the cleanliness and organization of the banquet area."
 
@@ -314,10 +314,10 @@ experience:
   - "Publication"
   - "Test Development"
   duties:
-  - "Conceptualized two (2) testing protocols by means of conceiving novel methods and the modification of exisiting methods/systems."
+  - "Conceptualized two (2) testing protocols by means of conceiving novel methods and the modification of existing methods/systems."
   - "Integrated motion capture (VICON) and electroencephalography (EEG) technologies into testing to quantitatively measure kinematic movement and cognitive function, respectively."
-  - "Streamlined data collection by consolidated and organizing documentation protocols by introduction of reciprocal paper and electronic data libraries."
-  - "Coordinated preliminary testing through: system calibration; administration of testing protcols; and data collection, processing and analysis."
+  - "Streamlined data collection by consolidating and organizing documentation protocols with reciprocal paper and electronic data libraries."
+  - "Coordinated preliminary testing through: system calibration; administration of testing protocols; and data collection, processing and analysis."
   - "Disclosed findings through lab tours,  presentations, and peer-reviewed publications."
 
 - type: PROFESSIONAL
@@ -348,7 +348,7 @@ experience:
   cause: "Environment"
   about: "Mountains to Sound Greenway Trust is a group whose goal is to lead and inspire action to conserve and enhance the local landscapes of Seattle, from the Cascade Mountains to Central Washington, helping to find the long-term balance between people and nature."
   duties:
-  - "Rehabilitated local greenways by means of nursery work and trail maintainance."
+  - "Rehabilitated local greenways by means of nursery work and trail maintenance."
 - type: VOLUNTEER
   title: "Volunteer"
   organization: "Seattle's Union Gospel Mission"
@@ -382,7 +382,7 @@ experience:
     start: "2011"
     end: "2014"
   cause: "Health/Disability"
-  about: "Special Olympics is a global organization that provides Olympic-style sporting opportunity to coaches and athletes with various disabilities."
+  about: "Special Olympics is a global organization that provides Olympic-style sporting opportunities to coaches and athletes with various disabilities."
   duties:
   - "Encouraged and supported athletes with active plaudits from the sidelines."
   - "Facilitated operation of track and field events: documented event results; marshalled athletes; and delivered awards."
@@ -395,7 +395,7 @@ experience:
     start: "2012"
     end: "2015"
   cause: "Community Service"
-  about: "Hunger Clean Up is a day of service which aims to build community relations by deploying individuals and groups to 50 different non-profit sites (food banks, homeless shelters, neighborhoods, etc) around Miwaukee."
+  about: "Hunger Clean Up is a day of service which aims to build community relations by deploying individuals and groups to 50 different non-profit sites (food banks, homeless shelters, neighborhoods, etc) around Milwaukee."
   duties:
   - "Strengthened community relations through a variety of service projects: picking up trash in local neighborhoods; planting a community garden; and yard work for elderly neighbors."
 
@@ -408,7 +408,7 @@ experience:
     end: "2017"
 
 - type: ORGANIZATION
-  title: "Treasuer"
+  title: "Treasurer"
   organization: "Marquette Women's Club Lacrosse"
   location: "Milwaukee, WI"
   date:
@@ -437,7 +437,7 @@ education:
   orgs: null
   duties:
   - "9 week intensive coding bootcamp focused on HTML, CSS, Bootstrap, Javascript ES2015, SQL, git, GitHub, Heroku, and Ruby on Rails."
-  - "Designed, implemented and shipped to production 2 projects: a mock Air BNB clone and a student-pitched business idea."
+  - "Designed, implemented and shipped to production 2 projects: a mock Airbnb clone and a student-pitched business idea."
 - type: UNIVERSITY
   school: "Marquette University"
   location: "Milwaukee, WI, USA"

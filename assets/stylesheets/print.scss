@@ -13,33 +13,10 @@
 
 @import './variables.scss';
 
-@media screen {
-
-}
+@media screen {}
 
 @media print {
   // SHARED
-  .print_pb-after-always {
-    break-after: always; 
-    page-break-after: always; 
-  }
-  .print_pb-after-avoid {
-    break-after: avoid-page; 
-    page-break-after: avoid-page; 
-  }
-  .print_pb-before-always { 
-    break-after: always;
-    page-break-before: always; 
-  }
-  .print_pb-before-avoid {
-    break-after: avoid-page; 
-    page-break-after: avoid-page; 
-  }
-  .print_pb-avoid {
-    break-inside: avoid-page; 
-    page-break-inside: avoid-page; 
-  }
-
 
   // PAGE
   @page {
